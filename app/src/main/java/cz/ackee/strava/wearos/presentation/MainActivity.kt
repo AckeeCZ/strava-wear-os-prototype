@@ -28,7 +28,7 @@ import androidx.wear.compose.material3.lazy.transformedHeight
 import androidx.wear.compose.ui.tooling.preview.WearPreviewDevices
 import androidx.wear.compose.ui.tooling.preview.WearPreviewFontScales
 import cz.ackee.strava.wearos.R
-import cz.ackee.strava.wearos.presentation.theme.AckeeStravaWearOSTheme
+import cz.ackee.strava.wearos.presentation.theme.StravaTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun WearApp(greetingName: String) {
-    AckeeStravaWearOSTheme {
+    StravaTheme {
         AppScaffold {
             val listState = rememberTransformingLazyColumnState()
             val transformationSpec = rememberTransformationSpec()
