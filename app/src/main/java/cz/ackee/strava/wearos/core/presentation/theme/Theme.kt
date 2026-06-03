@@ -1,4 +1,4 @@
-package cz.ackee.strava.wearos.presentation.theme
+package cz.ackee.strava.wearos.core.presentation.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable

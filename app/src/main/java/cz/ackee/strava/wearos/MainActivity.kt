@@ -3,7 +3,7 @@
  * most up to date changes to the libraries and their usages.
  */
 
-package cz.ackee.strava.wearos.presentation
+package cz.ackee.strava.wearos
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -27,8 +27,7 @@ import androidx.wear.compose.material3.lazy.rememberTransformationSpec
 import androidx.wear.compose.material3.lazy.transformedHeight
 import androidx.wear.compose.ui.tooling.preview.WearPreviewDevices
 import androidx.wear.compose.ui.tooling.preview.WearPreviewFontScales
-import cz.ackee.strava.wearos.R
-import cz.ackee.strava.wearos.presentation.theme.StravaTheme
+import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
 
 class MainActivity : ComponentActivity() {
 
