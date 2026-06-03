@@ -51,11 +51,10 @@ fun WearApp(greetingName: String) {
                 edgeButton = {
                     EdgeButton(
                         onClick = { /*TODO*/ },
-                        colors =
-                            ButtonDefaults.buttonColors(
-                                containerColor = MaterialTheme.colorScheme.secondaryContainer,
-                                contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
-                            ),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = MaterialTheme.colorScheme.secondaryContainer,
+                            contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
+                        ),
                     ) {
                         Text("More")
                     }
@@ -64,8 +63,9 @@ fun WearApp(greetingName: String) {
                 TransformingLazyColumn(contentPadding = contentPadding, state = listState) {
                     item {
                         ListHeader(
-                            modifier =
-                                Modifier.fillMaxWidth().transformedHeight(this, transformationSpec),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .transformedHeight(this, transformationSpec),
                             transformation = SurfaceTransformation(transformationSpec),
                         ) {
                             Text(text = stringResource(R.string.hello_world, greetingName))
