@@ -3,6 +3,8 @@ style:
     active: false
   MagicNumber:
     ignoreAnnotated: [ 'TestDataFactory' ]
+  UnusedPrivateMember:
+    ignoreAnnotated: [ 'Preview', 'WearPreviewDevices', 'WearPreviewFontScales' ]
 
 naming:
   FunctionNaming:
