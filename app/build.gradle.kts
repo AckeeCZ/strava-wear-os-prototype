@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.detekt)
 }
 
@@ -17,11 +18,7 @@ dependencies {
 
 android {
     namespace = "cz.ackee.strava.wearos"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "cz.ackee.strava.wearos"
@@ -62,6 +59,11 @@ dependencies {
     implementation(libs.core.splashscreen)
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
+    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.navigation3.runtime)
+    implementation(libs.navigation3.ui)
+    implementation(libs.wear.compose.navigation3)
+    implementation(libs.lifecycle.viewmodel.navigation3)
     androidTestImplementation(platform(libs.compose.bom))
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
