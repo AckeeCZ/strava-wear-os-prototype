@@ -1,6 +1,5 @@
 package cz.ackee.strava.wearos.core.presentation.theme
 
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.ReadOnlyComposable
@@ -8,14 +7,9 @@ import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.wear.compose.material3.MaterialTheme
 
 @Composable
-fun StravaTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
-    content: @Composable () -> Unit,
-) {
+fun StravaTheme(content: @Composable () -> Unit) {
     MaterialTheme {
-        CompositionLocalProvider(
-            LocalColors provides if (darkTheme) designSystemDarkColors() else designSystemLightColors(),
-        ) {
+        CompositionLocalProvider(LocalColors provides designSystemColors()) {
             CompositionLocalProvider(LocalTypography provides designSystemTypography()) {
                 content()
             }

@@ -58,7 +58,7 @@ data class Colors(
 
 @Suppress("MagicNumber")
 @Composable
-fun designSystemDarkColors(): Colors = Colors(
+fun designSystemColors(): Colors = Colors(
     accent = Color(0xFFFC5200),
     onAccent = Color(0xFFFFFFFF),
     backgrounds = Colors.Backgrounds(
@@ -69,23 +69,6 @@ fun designSystemDarkColors(): Colors = Colors(
     foregrounds = Colors.Foregrounds(
         primary = Color(0xFFFFFFFF),
         secondary = Color(0xFFA1A1A6),
-    ),
-    map = Colors.Map(polyline = Color(0xFFFC5200)),
-)
-
-@Suppress("MagicNumber")
-@Composable
-fun designSystemLightColors(): Colors = Colors(
-    accent = Color(0xFFFC5200),
-    onAccent = Color(0xFFFFFFFF),
-    backgrounds = Colors.Backgrounds(
-        primary = Color(0xFFFFFFFF),
-        surface = Color(0xFFF2F2F7),
-        surfaceVariant = Color(0xFFE5E5EA),
-    ),
-    foregrounds = Colors.Foregrounds(
-        primary = Color(0xFF000000),
-        secondary = Color(0xFF6E6E73),
     ),
     map = Colors.Map(polyline = Color(0xFFFC5200)),
 )
