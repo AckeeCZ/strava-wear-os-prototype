@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Ackee Strava Wear OS</string>
-    <string name="hello_world">Hello, %1$s!</string>
+    <string name="routes_list_title">Routes</string>
+    <string name="routes_list_error">Failed to load routes</string>
+    <string name="routes_list_retry">Retry</string>
+    <string name="routes_list_route_metrics">%1$.1f km · +%2$d m</string>
 </resources>
