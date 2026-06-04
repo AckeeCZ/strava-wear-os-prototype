@@ -1,0 +1,16 @@
+{
+  "id": 3,
+  "name": "Šumava Crossings",
+  "distance": 21976.0,
+  "elevation_gain": 648.0,
+  "estimated_moving_time": 7800,
+  "map": {
+    "id": "r3",
+    "polyline": "oakjH_psqA_X~W_XnKwQvQg^f^_Xf^oKvQvQf^f^f^vQvQ~Wg^~Wo}@vQo}@?o}@",
+    "summary_polyline": "oakjH_psqA_X~W_XnKwQvQg^f^_Xf^oKvQvQf^f^f^vQvQ~Wg^~Wo}@vQo}@?o}@"
+  },
+  "athlete": {
+    "id": 1003,
+    "resource_state": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": 6,
+  "name": "Brno City Round",
+  "distance": 10082.0,
+  "elevation_gain": 218.0,
+  "estimated_moving_time": 2640,
+  "map": {
+    "id": "r6",
+    "polyline": "klgkHoojdBs]gYg^_Xg^vQoKn}@rNnd@b[~Wf^wQnKg^bQoi@",
+    "summary_polyline": "klgkHoojdBs]gYg^_Xg^vQoKn}@rNnd@b[~Wf^wQnKg^bQoi@"
+  },
+  "athlete": {
+    "id": 1006,
+    "resource_state": 1
+  }
+}

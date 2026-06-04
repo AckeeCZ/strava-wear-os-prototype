@@ -1,0 +1,16 @@
+{
+  "id": 2,
+  "name": "Tatra Ridge Traverse",
+  "distance": 27842.0,
+  "elevation_gain": 1782.5,
+  "estimated_moving_time": 14400,
+  "map": {
+    "id": "r2",
+    "polyline": "c}ckHseqyBk\\sl@oKod@gJwj@wLkp@_X{^{TsXsNs]rNod@rl@gTve@v`@j\\~p@jMn}@cBn}@gJjqB",
+    "summary_polyline": "c}ckHseqyBk\\sl@oKod@gJwj@wLkp@_X{^{TsXsNs]rNod@rl@gTve@v`@j\\~p@jMn}@cBn}@gJjqB"
+  },
+  "athlete": {
+    "id": 1002,
+    "resource_state": 1
+  }
+}
