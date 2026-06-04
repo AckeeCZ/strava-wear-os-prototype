@@ -43,6 +43,11 @@ android {
     buildFeatures {
         compose = true
     }
+    sourceSets {
+        named("test") {
+            resources.srcDir("src/main/assets")
+        }
+    }
 }
 
 dependencies {
@@ -69,4 +74,5 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+    testImplementation(libs.junit)
 }
