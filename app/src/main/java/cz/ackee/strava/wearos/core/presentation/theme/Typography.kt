@@ -1,4 +1,4 @@
-package cz.ackee.strava.wearos.presentation.theme
+package cz.ackee.strava.wearos.core.presentation.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
