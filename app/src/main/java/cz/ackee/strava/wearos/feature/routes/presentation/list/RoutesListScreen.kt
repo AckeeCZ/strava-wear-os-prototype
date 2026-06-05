@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -156,6 +157,7 @@ private fun ContentState(
     }
 }
 
+@Suppress("MagicNumber")
 @Composable
 private fun RouteCard(
     route: RouteSummary,
@@ -171,36 +173,43 @@ private fun RouteCard(
             containerColor = StravaTheme.colors.backgrounds.surface,
         ),
     ) {
-        Row(
-            modifier = Modifier.height(IntrinsicSize.Min),
-            verticalAlignment = Alignment.CenterVertically,
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .defaultMinSize(minHeight = CardDefaults.Height - 24.dp),
+            contentAlignment = Alignment.Center,
         ) {
-            Box(
-                modifier = Modifier
-                    .width(3.dp)
-                    .fillMaxHeight()
-                    .clip(RoundedCornerShape(2.dp))
-                    .background(StravaTheme.colors.accent),
-            )
-            Spacer(Modifier.width(10.dp))
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = route.name,
-                    style = StravaTheme.typography.headlines.subtitle,
-                    color = StravaTheme.colors.foregrounds.primary,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
+            Row(
+                modifier = Modifier.height(IntrinsicSize.Min),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Box(
+                    modifier = Modifier
+                        .width(3.dp)
+                        .fillMaxHeight()
+                        .clip(RoundedCornerShape(2.dp))
+                        .background(StravaTheme.colors.accent),
                 )
-                Text(
-                    text = stringResource(
-                        R.string.routes_list_route_metrics,
-                        route.distanceKm,
-                        route.elevationGainM,
-                    ),
-                    style = StravaTheme.typography.paragraphs.body,
-                    color = StravaTheme.colors.foregrounds.secondary,
-                    modifier = Modifier.padding(top = 2.dp),
-                )
+                Spacer(Modifier.width(10.dp))
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = route.name,
+                        style = StravaTheme.typography.headlines.subtitle,
+                        color = StravaTheme.colors.foregrounds.primary,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                    Text(
+                        text = stringResource(
+                            R.string.routes_list_route_metrics,
+                            route.distanceKm,
+                            route.elevationGainM,
+                        ),
+                        style = StravaTheme.typography.paragraphs.body,
+                        color = StravaTheme.colors.foregrounds.secondary,
+                        modifier = Modifier.padding(top = 2.dp),
+                    )
+                }
             }
         }
     }
