@@ -1,4 +1,4 @@
-package cz.ackee.strava.wearos
+package cz.ackee.strava.wearos.core.presentation
 
 import androidx.compose.runtime.Composable
 import androidx.wear.compose.material3.AppScaffold
