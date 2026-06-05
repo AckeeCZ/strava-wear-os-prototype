@@ -31,9 +31,12 @@
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 
+        <!--
+            Intentionally left out of local.properties
+        -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="${MAPS_API_KEY}" />
+            android:value="AIzaSyCULhsz7dh2X2QEdRI1xYlYWI64jmDI2pY" />
 
         <activity
             android:name=".MainActivity"
