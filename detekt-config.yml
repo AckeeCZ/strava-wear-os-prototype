@@ -1,0 +1,10 @@
+style:
+  MaxLineLength:
+    active: false
+  MagicNumber:
+    ignoreAnnotated: [ 'TestDataFactory' ]
+
+naming:
+  FunctionNaming:
+    ignoreAnnotated: [ 'Composable' ]
+    excludes: "**/test/**,**/androidTest/**,**/androidUnitTest/**"

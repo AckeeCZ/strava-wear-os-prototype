@@ -1,6 +1,18 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.detekt)
+}
+
+detekt {
+    buildUponDefaultConfig = true
+    config.setFrom("$rootDir/detekt-config.yml")
+    ignoreFailures = false
+}
+
+dependencies {
+    detektPlugins(libs.detekt.formatting)
+    detektPlugins(libs.detekt.compose)
 }
 
 android {
