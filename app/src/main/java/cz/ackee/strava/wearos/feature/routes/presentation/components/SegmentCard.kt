@@ -38,12 +38,13 @@ import kotlin.time.Duration
 fun SegmentCard(
     highlighted: HighlightedSegment,
     mapStyle: MapStyleOptions,
+    onClick: () -> Unit,
     modifier: Modifier = Modifier,
     transformation: SurfaceTransformation? = null,
 ) {
     val segment = highlighted.segment
     Card(
-        onClick = {},
+        onClick = onClick,
         modifier = modifier,
         transformation = transformation,
         colors = CardDefaults.cardColors(

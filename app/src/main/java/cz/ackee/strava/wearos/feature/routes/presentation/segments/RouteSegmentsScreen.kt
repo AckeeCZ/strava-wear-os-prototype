@@ -35,6 +35,7 @@ import cz.ackee.strava.wearos.R
 import cz.ackee.strava.wearos.core.presentation.map.rememberMapStyle
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
 import cz.ackee.strava.wearos.feature.routes.domain.model.Route
+import cz.ackee.strava.wearos.feature.routes.domain.model.Segment
 import cz.ackee.strava.wearos.feature.routes.presentation.components.SegmentCard
 import org.koin.androidx.compose.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -42,11 +43,13 @@ import org.koin.core.parameter.parametersOf
 @Composable
 fun RouteSegmentsScreen(
     routeId: Route.Id,
+    onSegmentClick: (Segment.Id) -> Unit,
     viewModel: RouteSegmentsViewModel = koinViewModel { parametersOf(routeId) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     RouteSegmentsScreen(
         state = state,
+        onSegmentClick = onSegmentClick,
         onIntent = viewModel::onIntent,
     )
 }
@@ -54,12 +57,13 @@ fun RouteSegmentsScreen(
 @Composable
 private fun RouteSegmentsScreen(
     state: RouteSegmentsState,
+    onSegmentClick: (Segment.Id) -> Unit,
     onIntent: (RouteSegmentsIntent) -> Unit,
 ) {
     when (state) {
         RouteSegmentsState.Loading -> LoadingState()
         RouteSegmentsState.Error -> ErrorState(onRetry = { onIntent(RouteSegmentsIntent.Retry) })
-        is RouteSegmentsState.Content -> ContentState(state = state)
+        is RouteSegmentsState.Content -> ContentState(state = state, onSegmentClick = onSegmentClick)
     }
 }
 
@@ -112,7 +116,10 @@ private fun ErrorState(onRetry: () -> Unit) {
 }
 
 @Composable
-private fun ContentState(state: RouteSegmentsState.Content) {
+private fun ContentState(
+    state: RouteSegmentsState.Content,
+    onSegmentClick: (Segment.Id) -> Unit,
+) {
     val listState = rememberTransformingLazyColumnState()
     val transformationSpec = rememberTransformationSpec()
     val segmentMapStyle = rememberMapStyle(R.raw.map_style_dark_minimal)
@@ -138,6 +145,7 @@ private fun ContentState(state: RouteSegmentsState.Content) {
                 SegmentCard(
                     highlighted = highlighted,
                     mapStyle = segmentMapStyle,
+                    onClick = { onSegmentClick(highlighted.segment.id) },
                     modifier = Modifier
                         .fillMaxWidth()
                         .transformedHeight(this@items, transformationSpec),
@@ -162,6 +170,6 @@ private fun RouteSegmentsScreenPreview(
     @PreviewParameter(RouteSegmentsStateProvider::class) state: RouteSegmentsState,
 ) {
     StravaTheme {
-        RouteSegmentsScreen(state = state, onIntent = {})
+        RouteSegmentsScreen(state = state, onSegmentClick = {}, onIntent = {})
     }
 }

@@ -17,4 +17,6 @@
     <string name="route_segments_title">Segments (%1$d)</string>
     <string name="route_segments_error">Failed to load segments</string>
     <string name="route_segments_retry">Retry</string>
+    <string name="segment_map_error">Failed to load segment</string>
+    <string name="segment_map_retry">Retry</string>
 </resources>
