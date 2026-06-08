@@ -6,4 +6,15 @@
     <string name="routes_list_route_metrics">%1$.1f km · +%2$d m</string>
     <string name="route_detail_error">Failed to load route</string>
     <string name="route_detail_retry">Retry</string>
+    <string name="route_detail_distance">%1$.1f km</string>
+    <string name="route_detail_elevation">+%1$d m</string>
+    <string name="route_detail_time_hm">%1$dh %2$02dm</string>
+    <string name="route_detail_segments_header">Starred segments</string>
+    <string name="route_detail_segments_show_all">Show all (%1$d)</string>
+    <string name="route_detail_show_on_map">Show map</string>
+    <string name="route_map_error">Failed to load map</string>
+    <string name="route_map_retry">Retry</string>
+    <string name="route_segments_title">Segments (%1$d)</string>
+    <string name="route_segments_error">Failed to load segments</string>
+    <string name="route_segments_retry">Retry</string>
 </resources>
