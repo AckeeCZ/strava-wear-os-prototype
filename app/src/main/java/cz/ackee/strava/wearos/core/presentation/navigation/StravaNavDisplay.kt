@@ -13,6 +13,8 @@ import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailDest
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailScreen
 import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListDestination
 import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListScreen
+import cz.ackee.strava.wearos.feature.routes.presentation.map.RouteMapDestination
+import cz.ackee.strava.wearos.feature.routes.presentation.map.RouteMapScreen
 
 @Composable
 fun StravaNavDisplay() {
@@ -33,6 +35,12 @@ fun StravaNavDisplay() {
             }
             entry<RouteDetailDestination> { key ->
                 RouteDetailScreen(
+                    routeId = Route.Id(key.routeId),
+                    onBack = { backStack.removeLastOrNull() },
+                )
+            }
+            entry<RouteMapDestination> { key ->
+                RouteMapScreen(
                     routeId = Route.Id(key.routeId),
                     onBack = { backStack.removeLastOrNull() },
                 )
