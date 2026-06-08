@@ -1,0 +1,265 @@
+[
+  {
+    "id": 2212335,
+    "resource_state": 2,
+    "name": "Vysehrad Tunel 2 Barrandovsky most",
+    "activity_type": "Ride",
+    "distance": 2939.84,
+    "average_grade": -0.1,
+    "maximum_grade": 6.3,
+    "elevation_high": 200.4,
+    "elevation_low": 193.4,
+    "start_latlng": [
+      50.06281167268753,
+      14.41596427001059
+    ],
+    "end_latlng": [
+      50.03857623785734,
+      14.408058794215322
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Prague",
+    "state": "Hlavní město Praha",
+    "country": "Czech Republic",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 396,
+    "athlete_pr_effort": {
+      "id": 3389585577867381000,
+      "activity_id": 15409229872,
+      "elapsed_time": 396,
+      "distance": 2939.84,
+      "start_date": "2025-08-10T09:35:38Z",
+      "start_date_local": "2025-08-10T11:35:38Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-05T12:37:12Z"
+  },
+  {
+    "id": 8084235,
+    "resource_state": 2,
+    "name": "Cholínek :)",
+    "activity_type": "Ride",
+    "distance": 1153.5,
+    "average_grade": 4,
+    "maximum_grade": 42.8,
+    "elevation_high": 365.5,
+    "elevation_low": 317.5,
+    "start_latlng": [
+      49.716154,
+      14.326373
+    ],
+    "end_latlng": [
+      49.707784,
+      14.329154
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Křepenice",
+    "state": "Central Bohemian Region",
+    "country": "Czech Republic",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 453,
+    "athlete_pr_effort": {
+      "id": 3389257126086021600,
+      "activity_id": 15399137426,
+      "elapsed_time": 453,
+      "distance": 1153.5,
+      "start_date": "2025-08-09T07:02:17Z",
+      "start_date_local": "2025-08-09T09:02:17Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-05T12:37:35Z"
+  },
+  {
+    "id": 10186045,
+    "resource_state": 2,
+    "name": "Opičí Časovka, Podolská vodárna - Dvorce",
+    "activity_type": "Ride",
+    "distance": 1390.1,
+    "average_grade": -0.1,
+    "maximum_grade": 4.6,
+    "elevation_high": 194.6,
+    "elevation_low": 189.3,
+    "start_latlng": [
+      50.059206,
+      14.419278
+    ],
+    "end_latlng": [
+      50.047279,
+      14.413948
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Prague",
+    "state": "Hlavní město Praha",
+    "country": "Czech Republic",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 184,
+    "athlete_pr_effort": {
+      "id": 3389585577868243500,
+      "activity_id": 15409229872,
+      "elapsed_time": 184,
+      "distance": 1390.1,
+      "start_date": "2025-08-10T09:36:43Z",
+      "start_date_local": "2025-08-10T11:36:43Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-05T12:35:36Z"
+  },
+  {
+    "id": 20369633,
+    "resource_state": 2,
+    "name": "Euro Spin Sprint",
+    "activity_type": "Run",
+    "distance": 576.7,
+    "average_grade": -0.4,
+    "maximum_grade": 1.3,
+    "elevation_high": 12.1,
+    "elevation_low": 8.9,
+    "start_latlng": [
+      40.772855,
+      9.663866
+    ],
+    "end_latlng": [
+      40.775777,
+      9.658223
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "San Teodoro",
+    "state": "Sardegna",
+    "country": "Italy",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "starred_date": "2026-06-05T12:35:06Z"
+  },
+  {
+    "id": 23217834,
+    "resource_state": 2,
+    "name": "river train",
+    "activity_type": "Ride",
+    "distance": 1541.2,
+    "average_grade": 0.3,
+    "maximum_grade": 3.9,
+    "elevation_high": 197.2,
+    "elevation_low": 189.9,
+    "start_latlng": [
+      50.006002,
+      14.401658
+    ],
+    "end_latlng": [
+      49.992376,
+      14.40378
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Praha 12",
+    "state": "Hlavní město Praha",
+    "country": "Czechia",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 212,
+    "athlete_pr_effort": {
+      "id": 3384884820442139000,
+      "activity_id": 15262534222,
+      "elapsed_time": 212,
+      "distance": 1541.2,
+      "start_date": "2025-07-19T11:19:39Z",
+      "start_date_local": "2025-07-19T13:19:39Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-05T12:35:47Z"
+  },
+  {
+    "id": 23717539,
+    "resource_state": 2,
+    "name": "Sprint kolem Golf. hriste",
+    "activity_type": "Ride",
+    "distance": 641.2,
+    "average_grade": -0.5,
+    "maximum_grade": 0.5,
+    "elevation_high": 183.2,
+    "elevation_low": 179.8,
+    "start_latlng": [
+      50.020982,
+      14.396906
+    ],
+    "end_latlng": [
+      50.015223,
+      14.397093
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Praha 12",
+    "state": "Hlavní město Praha",
+    "country": "Czechia",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 66,
+    "athlete_pr_effort": {
+      "id": 3492953399749630500,
+      "activity_id": 18610865099,
+      "elapsed_time": 66,
+      "distance": 641.2,
+      "start_date": "2026-05-22T14:08:27Z",
+      "start_date_local": "2026-05-22T16:08:27Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-05T12:36:32Z"
+  },
+  {
+    "id": 38108492,
+    "resource_state": 2,
+    "name": "Výton - Kublov po stezce",
+    "activity_type": "Ride",
+    "distance": 1379.1,
+    "average_grade": 0.2,
+    "maximum_grade": 1.4,
+    "elevation_high": 199.2,
+    "elevation_low": 196.4,
+    "start_latlng": [
+      50.066106,
+      14.415242
+    ],
+    "end_latlng": [
+      50.054551,
+      14.417934
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Prague",
+    "state": "Prague",
+    "country": "Czechia",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 185,
+    "athlete_pr_effort": {
+      "id": 3389585577869633000,
+      "activity_id": 15409229872,
+      "elapsed_time": 185,
+      "distance": 1379.1,
+      "start_date": "2025-08-10T09:34:46Z",
+      "start_date_local": "2025-08-10T11:34:46Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-05T12:37:06Z"
+  }
+]

@@ -11,6 +11,7 @@ data class Route(
     val elevationGainMeters: Double,
     val estimatedMovingTime: Duration,
     val polyline: List<LatLng>,
+    val segments: List<Segment>,
 ) {
 
     @JvmInline
