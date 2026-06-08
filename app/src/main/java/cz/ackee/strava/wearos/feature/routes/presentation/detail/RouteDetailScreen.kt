@@ -31,6 +31,7 @@ import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.PolylineOptions
 import cz.ackee.strava.wearos.R
 import cz.ackee.strava.wearos.core.presentation.map.WearMap
+import cz.ackee.strava.wearos.core.presentation.map.rememberMapStyle
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
 import cz.ackee.strava.wearos.feature.routes.domain.model.Route
 import org.koin.androidx.compose.koinViewModel
@@ -110,8 +111,10 @@ private fun ErrorState(onRetry: () -> Unit) {
 @Composable
 private fun RouteMap(route: Route, onBack: () -> Unit, modifier: Modifier = Modifier) {
     val polylineColor = StravaTheme.colors.map.polyline.toArgb()
+    val mapStyle = rememberMapStyle(R.raw.map_style_dark)
     WearMap(
         onBack = onBack,
+        mapStyle = mapStyle,
         modifier = modifier,
         configureMap = {
             clear()
