@@ -113,20 +113,16 @@ private fun GoogleMap.drawSegmentPreview(polyline: List<LatLng>, colorArgb: Int,
 @Composable
 private fun SegmentMetrics(distanceMeters: Double, elevationGainMeters: Int, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
-        Text(
+        MetricRow(
+            iconRes = R.drawable.ic_distance,
             text = stringResource(R.string.route_detail_distance, distanceMeters / METERS_PER_KILOMETER),
-            style = StravaTheme.typography.paragraphs.body,
             color = StravaTheme.colors.foregrounds.secondary,
-            maxLines = 1,
-            overflow = TextOverflow.Ellipsis,
         )
-        Text(
+        MetricRow(
+            iconRes = R.drawable.ic_elevation,
             text = stringResource(R.string.route_detail_elevation, elevationGainMeters),
-            style = StravaTheme.typography.paragraphs.body,
             color = StravaTheme.colors.foregrounds.secondary,
             modifier = Modifier.padding(top = 2.dp),
-            maxLines = 1,
-            overflow = TextOverflow.Ellipsis,
         )
     }
 }

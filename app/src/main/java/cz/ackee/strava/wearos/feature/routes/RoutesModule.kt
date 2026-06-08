@@ -21,7 +21,9 @@ val routesModule = module {
     single<StarredSegmentRepository> { MockStarredSegmentRepository(androidContext(), get()) }
     factory { GetRouteWithHighlightedSegmentsUseCase(routeRepository = get(), starredSegmentRepository = get()) }
     viewModel { RoutesListViewModel(repository = get()) }
-    viewModel { (id: Route.Id) -> RouteDetailViewModel(id = id, repository = get()) }
+    viewModel { (id: Route.Id) ->
+        RouteDetailViewModel(id = id, getRouteWithHighlightedSegments = get())
+    }
     viewModel { (id: Route.Id) -> RouteMapViewModel(id = id, repository = get()) }
     viewModel { (id: Route.Id) ->
         RouteSegmentsViewModel(id = id, getRouteWithHighlightedSegments = get())

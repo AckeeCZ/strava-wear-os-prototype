@@ -10,6 +10,7 @@ import androidx.navigation3.ui.NavDisplay
 import androidx.wear.compose.navigation3.rememberSwipeDismissableSceneStrategy
 import cz.ackee.strava.wearos.feature.routes.domain.model.Route
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailDestination
+import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailNavigation
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailScreen
 import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListDestination
 import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListScreen
@@ -38,7 +39,10 @@ fun StravaNavDisplay() {
             entry<RouteDetailDestination> { key ->
                 RouteDetailScreen(
                     routeId = Route.Id(key.routeId),
-                    onBack = { backStack.removeLastOrNull() },
+                    navigation = RouteDetailNavigation(
+                        onShowMap = { backStack.add(RouteMapDestination(key.routeId)) },
+                        onShowAllSegments = { backStack.add(RouteSegmentsDestination(key.routeId)) },
+                    ),
                 )
             }
             entry<RouteMapDestination> { key ->
