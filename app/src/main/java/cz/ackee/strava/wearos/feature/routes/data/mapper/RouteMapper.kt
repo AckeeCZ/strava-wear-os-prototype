@@ -25,6 +25,7 @@ class RouteMapper {
             distanceMeters = dto.distance,
             elevationGainMeters = dto.elevationGain,
             estimatedMovingTime = dto.estimatedMovingTime.seconds,
+            starred = dto.starred,
             polyline = routePolyline,
             segments = orderedSegments,
         )

@@ -10,6 +10,7 @@ data class Route(
     val distanceMeters: Double,
     val elevationGainMeters: Double,
     val estimatedMovingTime: Duration,
+    val starred: Boolean,
     val polyline: List<LatLng>,
     val segments: List<Segment>,
 ) {

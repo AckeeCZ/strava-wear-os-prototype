@@ -12,6 +12,7 @@ data class RouteDto(
     val distance: Double,
     @SerialName("elevation_gain") val elevationGain: Double,
     @SerialName("estimated_moving_time") val estimatedMovingTime: Long,
+    val starred: Boolean = false,
     val map: PolylineMapDto,
     val segments: List<RouteSegmentDto> = emptyList(),
 )

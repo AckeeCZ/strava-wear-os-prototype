@@ -188,7 +188,11 @@ private fun RouteCard(
                         .width(3.dp)
                         .fillMaxHeight()
                         .clip(RoundedCornerShape(2.dp))
-                        .background(StravaTheme.colors.accent),
+                        .background(
+                            StravaTheme.colors.accent.copy(
+                                alpha = if (route.starred) 1f else MUTED_STRIP_ALPHA
+                            )
+                        ),
                 )
                 Spacer(Modifier.width(10.dp))
                 Column(modifier = Modifier.weight(1f)) {
@@ -234,15 +238,17 @@ private fun ErrorState(onRetry: () -> Unit, modifier: Modifier = Modifier) {
     }
 }
 
+private const val MUTED_STRIP_ALPHA = 0.3f
+
 @Suppress("MagicNumber")
 private class RoutesListStateProvider : PreviewParameterProvider<RoutesListState> {
     override val values = sequenceOf(
         RoutesListState.Loading,
         RoutesListState.Content(
             routes = listOf(
-                RouteSummary(Route.Id(1), "Pražský Průhon", 15.2, 182),
-                RouteSummary(Route.Id(2), "Tatra Ridge Traverse", 27.8, 1783),
-                RouteSummary(Route.Id(3), "Šumava Crossings", 21.9, 648),
+                RouteSummary(Route.Id(1), "Pražský Průhon", 15.2, 182, starred = false),
+                RouteSummary(Route.Id(2), "Tatra Ridge Traverse", 27.8, 1783, starred = true),
+                RouteSummary(Route.Id(3), "Šumava Crossings", 21.9, 648, starred = false),
             ),
         ),
         RoutesListState.Error,

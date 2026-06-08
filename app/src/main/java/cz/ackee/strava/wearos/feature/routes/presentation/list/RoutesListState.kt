@@ -16,4 +16,5 @@ data class RouteSummary(
     val name: String,
     val distanceKm: Double,
     val elevationGainM: Int,
+    val starred: Boolean,
 )
