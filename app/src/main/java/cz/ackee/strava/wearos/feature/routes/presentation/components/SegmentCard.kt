@@ -22,14 +22,11 @@ import androidx.wear.compose.material3.Card
 import androidx.wear.compose.material3.CardDefaults
 import androidx.wear.compose.material3.SurfaceTransformation
 import androidx.wear.compose.material3.Text
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MapStyleOptions
-import com.google.android.gms.maps.model.PolylineOptions
 import cz.ackee.strava.wearos.R
 import cz.ackee.strava.wearos.core.presentation.map.WearMapStatic
+import cz.ackee.strava.wearos.core.presentation.map.drawPolyline
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
 import cz.ackee.strava.wearos.feature.routes.domain.model.HighlightedSegment
 import kotlin.time.Duration
@@ -92,23 +89,17 @@ private fun SegmentMiniMap(polyline: List<LatLng>, mapStyle: MapStyleOptions, mo
         placeholderColor = placeholderColor,
         cornerRadius = MINIMAP_CORNER_RADIUS,
         modifier = modifier,
-        configureMap = { onReady -> drawSegmentPreview(polyline, polylineColor, onReady) },
+        configureMap = { onReady ->
+            clear()
+            drawPolyline(
+                polyline = polyline,
+                colorArgb = polylineColor,
+                widthPx = POLYLINE_WIDTH_PX,
+                cameraPaddingPx = CAMERA_PADDING_PX,
+                onReady = onReady,
+            )
+        },
     )
-}
-
-private fun GoogleMap.drawSegmentPreview(polyline: List<LatLng>, colorArgb: Int, onReady: () -> Unit) {
-    clear()
-    addPolyline(
-        PolylineOptions()
-            .addAll(polyline)
-            .color(colorArgb)
-            .width(POLYLINE_WIDTH_PX),
-    )
-    val bounds = LatLngBounds.builder().apply { polyline.forEach { include(it) } }.build()
-    setOnMapLoadedCallback {
-        moveCamera(CameraUpdateFactory.newLatLngBounds(bounds, CAMERA_PADDING_PX))
-        onReady()
-    }
 }
 
 @Composable
