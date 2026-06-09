@@ -43,6 +43,11 @@ android {
     buildFeatures {
         compose = true
     }
+    sourceSets {
+        named("test") {
+            resources.srcDir("src/main/assets")
+        }
+    }
 }
 
 dependencies {
@@ -60,6 +65,7 @@ dependencies {
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.maps.utils)
     implementation(libs.navigation3.runtime)
     implementation(libs.navigation3.ui)
     implementation(libs.wear.compose.navigation3)
@@ -68,4 +74,5 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+    testImplementation(libs.junit)
 }

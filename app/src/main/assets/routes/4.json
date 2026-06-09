@@ -1,0 +1,16 @@
+{
+  "id": 4,
+  "name": "Bohemian Switzerland Loop",
+  "distance": 17985.0,
+  "elevation_gain": 478.0,
+  "estimated_moving_time": 6420,
+  "map": {
+    "id": "r4",
+    "polyline": "gcouHwlevA{TwQc[g^c[wj@c[o}@vQod@~W_Xf^?f^f^vQfw@gEn}@oKvcA",
+    "summary_polyline": "gcouHwlevA{TwQc[g^c[wj@c[o}@vQod@~W_Xf^?f^f^vQfw@gEn}@oKvcA"
+  },
+  "athlete": {
+    "id": 1004,
+    "resource_state": 1
+  }
+}

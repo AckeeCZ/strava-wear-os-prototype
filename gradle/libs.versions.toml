@@ -9,10 +9,12 @@ composeUiTooling = "1.5.6"
 wearToolingPreview = "1.0.0"
 activityCompose = "1.13.0"
 coreSplashscreen = "1.2.0"
+junit = "4.13.2"
 detekt = "1.23.8"
 detekt-compose = "1.4.0"
 koin = "4.2.1"
 kotlinxSerialization = "1.10.0"
+mapsUtils = "3.12.0"
 navigation3 = "1.2.0-alpha03"
 lifecycleViewmodelNavigation3 = "2.10.0"
 wearComposeNavigation3 = "1.6.2"
@@ -32,11 +34,13 @@ compose-ui-tooling = { group = "androidx.wear.compose", name = "compose-ui-tooli
 wear-tooling-preview = { group = "androidx.wear", name = "wear-tooling-preview", version.ref = "wearToolingPreview" }
 activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
 detekt-compose = { module = "ru.kode:detekt-rules-compose", version.ref = "detekt-compose" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
 koin-androidx-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
+maps-utils = { group = "com.google.maps.android", name = "android-maps-utils", version.ref = "mapsUtils" }
 navigation3-runtime = { group = "androidx.navigation3", name = "navigation3-runtime", version.ref = "navigation3" }
 navigation3-ui = { group = "androidx.navigation3", name = "navigation3-ui", version.ref = "navigation3" }
 lifecycle-viewmodel-navigation3 = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-navigation3", version.ref = "lifecycleViewmodelNavigation3" }

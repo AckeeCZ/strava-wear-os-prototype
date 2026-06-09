@@ -1,0 +1,16 @@
+{
+  "id": 5,
+  "name": "Adriatic Coast Run",
+  "distance": 11823.0,
+  "elevation_gain": 92.0,
+  "estimated_moving_time": 3300,
+  "map": {
+    "id": "r5",
+    "polyline": "stphGg~icBcQoi@{Twj@oKwj@kHwj@wQwj@oKod@jH_XzTnK",
+    "summary_polyline": "stphGg~icBcQoi@{Twj@oKwj@kHwj@wQwj@oKod@jH_XzTnK"
+  },
+  "athlete": {
+    "id": 1005,
+    "resource_state": 1
+  }
+}
