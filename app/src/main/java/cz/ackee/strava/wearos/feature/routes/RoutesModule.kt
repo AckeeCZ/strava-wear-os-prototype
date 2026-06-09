@@ -1,8 +1,8 @@
 package cz.ackee.strava.wearos.feature.routes
 
-import cz.ackee.strava.wearos.feature.routes.data.MockRouteRepository
-import cz.ackee.strava.wearos.feature.routes.domain.Route
-import cz.ackee.strava.wearos.feature.routes.domain.RouteRepository
+import cz.ackee.strava.wearos.feature.routes.data.repository.MockRouteRepository
+import cz.ackee.strava.wearos.feature.routes.domain.model.Route
+import cz.ackee.strava.wearos.feature.routes.domain.repository.RouteRepository
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailViewModel
 import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListViewModel
 import org.koin.android.ext.koin.androidContext

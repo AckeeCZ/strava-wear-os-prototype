@@ -1,5 +1,6 @@
-package cz.ackee.strava.wearos.feature.routes.data
+package cz.ackee.strava.wearos.feature.routes.data.mapper
 
+import cz.ackee.strava.wearos.feature.routes.data.dto.RouteDto
 import kotlinx.serialization.json.Json
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

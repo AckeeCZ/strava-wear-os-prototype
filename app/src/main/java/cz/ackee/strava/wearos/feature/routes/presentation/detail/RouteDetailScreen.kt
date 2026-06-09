@@ -32,7 +32,7 @@ import com.google.android.gms.maps.model.PolylineOptions
 import cz.ackee.strava.wearos.R
 import cz.ackee.strava.wearos.core.presentation.map.WearMap
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
-import cz.ackee.strava.wearos.feature.routes.domain.Route
+import cz.ackee.strava.wearos.feature.routes.domain.model.Route
 import org.koin.androidx.compose.koinViewModel
 import org.koin.core.parameter.parametersOf
 

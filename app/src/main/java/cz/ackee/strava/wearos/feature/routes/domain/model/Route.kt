@@ -1,4 +1,4 @@
-package cz.ackee.strava.wearos.feature.routes.domain
+package cz.ackee.strava.wearos.feature.routes.domain.model
 
 import com.google.android.gms.maps.model.LatLng
 import kotlin.jvm.JvmInline

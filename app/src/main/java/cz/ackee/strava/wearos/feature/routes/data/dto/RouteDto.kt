@@ -1,4 +1,4 @@
-package cz.ackee.strava.wearos.feature.routes.data
+package cz.ackee.strava.wearos.feature.routes.data.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
