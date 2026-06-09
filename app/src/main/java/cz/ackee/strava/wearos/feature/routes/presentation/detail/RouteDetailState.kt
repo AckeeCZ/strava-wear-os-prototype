@@ -8,11 +8,11 @@ sealed interface RouteDetailState {
 
     data class Content(
         val route: Route,
-        val highlightedSegments: List<HighlightedSegment>,
+        val starredSegments: List<HighlightedSegment>,
         val totalSegments: Int,
     ) : RouteDetailState {
         val hasMoreSegments: Boolean
-            get() = highlightedSegments.size < totalSegments
+            get() = starredSegments.size < totalSegments
     }
 
     data object Error : RouteDetailState

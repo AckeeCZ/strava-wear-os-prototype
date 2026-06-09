@@ -212,7 +212,7 @@ private fun DetailContent(
                 transformation = SurfaceTransformation(spec),
             )
         }
-        if (state.highlightedSegments.isNotEmpty()) {
+        if (state.starredSegments.isNotEmpty()) {
             item {
                 Header(
                     title = stringResource(R.string.route_detail_segments_header),
@@ -221,7 +221,7 @@ private fun DetailContent(
                     transformation = SurfaceTransformation(spec),
                 )
             }
-            items(state.highlightedSegments, key = { it.segment.id.value }) { highlighted ->
+            items(state.starredSegments, key = { it.segment.id.value }) { highlighted ->
                 SegmentCard(
                     highlighted = highlighted,
                     mapStyle = segmentMapStyle,
@@ -352,7 +352,7 @@ private class RouteDetailStateProvider : PreviewParameterProvider<RouteDetailSta
                 polyline = emptyList(),
                 segments = emptyList(),
             ),
-            highlightedSegments = listOf(
+            starredSegments = listOf(
                 HighlightedSegment(
                     segment = segment(101L, "Vyšehradský sjezd", 850.0),
                     prTime = 90.seconds,

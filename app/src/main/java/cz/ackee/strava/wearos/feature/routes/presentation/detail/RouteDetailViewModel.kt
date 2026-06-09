@@ -36,7 +36,7 @@ class RouteDetailViewModel(
                 val result = getRouteWithHighlightedSegments(id)
                 RouteDetailState.Content(
                     route = result.route,
-                    highlightedSegments = result.segments.filter { it.isStarred },
+                    starredSegments = result.segments.filter { it.isStarred },
                     totalSegments = result.segments.size,
                 )
             } catch (e: Throwable) {
