@@ -1,16 +1,1061 @@
 {
-  "id": 4,
-  "name": "Bohemian Switzerland Loop",
-  "distance": 17985.0,
-  "elevation_gain": 478.0,
-  "estimated_moving_time": 6420,
-  "map": {
-    "id": "r4",
-    "polyline": "gcouHwlevA{TwQc[g^c[wj@c[o}@vQod@~W_Xf^?f^f^vQfw@gEn}@oKvcA",
-    "summary_polyline": "gcouHwlevA{TwQc[g^c[wj@c[o}@vQod@~W_Xf^?f^f^vQfw@gEn}@oKvcA"
-  },
   "athlete": {
-    "id": 1004,
-    "resource_state": 1
-  }
+    "id": 48616966,
+    "username": "rveis",
+    "resource_state": 2,
+    "firstname": "Roman",
+    "lastname": "Veis",
+    "bio": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "sex": "M",
+    "premium": true,
+    "summit": true,
+    "created_at": "2019-11-29T11:40:02Z",
+    "updated_at": "2026-05-05T16:05:14Z",
+    "badge_type_id": 1,
+    "profile_medium": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/48616966/38568322/1/medium.jpg",
+    "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/48616966/38568322/1/large.jpg",
+    "friend": null,
+    "follower": null
+  },
+  "description": "",
+  "distance": 150246.4096872745,
+  "elevation_gain": 1979.2599999999995,
+  "id": 3388432691814276000,
+  "id_str": "3388432691814276242",
+  "map": {
+    "id": "r3388432691814276242",
+    "summary_polyline": "yfqpHwegwAwJiEoDbChGnt@qAju@fJ`a@{@|L{Hd[Jv^fDrNmEfHj@~@qDhK]rIhBbPdXwFtGyK|EuBpXr@|fA~e@~v@zd@`EYjLiJc@bH|N`KeAzIv[|V~RlDjHu@bAtJ`g@w@xWmGnCgE`^kPfdAeM`FVfBpD~D]zEbFx|@xX~WGdJsB`N|AZeCjFE{E}@w@x[~LjDtt@uEnWfNtd@tEbM_CnW_NvDCpGfGzBxMmAnt@jDfV|]zs@hLnN|IdEtSkEjWmMvl@g]tL_M~HuDtJmLhYgfAzIgOnI{G|bAgb@hHhAbU|PbCzGxCpUlFpN`K`OxLvAve@oRnnAy_@t\\iCpTuI|MwTnEkVvEsDpLjEfTW|QtLnIaAbP`UxM`@`WxKhMrPjLSnMfb@nVzUrFkArFgLnIaYEgK`DWtGyH`FsA~AwFrEgDvYj_@rDjRfQnXnFrOvDc@rPmd@j[cLrHbKnFV[_EdA{@rD|BnQ`@hOpStJlE`L~YzB~LjBuKjE}@oAcQnBcIKi_@dByOlEiMrL|HN}ZxDmJp@sH|DNzBnGfGrDvJNlIxFpFfV`@rJbBbDvF{BrFsLpKfEmCkLQyHp@_IpCcGK}ReCuQcE}Gs@iK|HiIzJw@UqP~E{[oDsBNoDOnDnDrB_Fz[TpP{Jv@}HhIr@hKbE|GdCtQJ|RqCbGq@~HPxHlCjLqKgE{HrN}MlfAJbOfFvr@|Dl[JzVuApO~AfImWp\\dBpE~_@hRbErRbMtMhRnLfKH|j@dKpHzDzLnUw@`Wt@nCl\\t@fQeMhO`b@rG|FSxH~BfZpHqI~JyEnO{c@j@aSpAcClMvAjO{AdZ`d@xGgKdDwPzTvK|HT`IwBdL_ZpJub@pF|c@nNhf@yAfY|ApBxCzRvH_AhB{NbKaOxEdBz@~IbJeAfGhKxMt@lOwDxN|BdO[T`N~B`GnGiHpGaAxDsIfSx@zPuGjLvB|GiG`FdLhHtCdDlGlJpFjOvQ`D|TlC?|DaFvJdGvAnQnDnIpBtNdShPzIbCpLgCvE}DvEhErHIvDxFnPsJ~FxIHhL~ClB`AbLcBlLl@fSaH|iBnXyTfLtBnTgNzPj@jYxNlYsGle@e@fTgFxBgGzBjMLfQdEbHoE`f@^~Y{A~WlKpHEbb@zKps@vRpZtMlKu@vWdKz\\dSbK~GuEx@lJiDfd@gI~RkAvPcK|OsHtc@kCrDsNdBcF`HmCxTsBjd@_NpQqHjF}F~J{AnUzAoU|F_KpHkF~MqQ`Eyt@`FyKrQsCbD~EtNnApK|IdPXtV_OzVrAzEmGxCyT|PoK`HcPrEgCjDsIdEqDbFmMhY_O|KOhXbW`RjE`N`Il@rDnBSbDbEtFiCtFzFjKfA|InE`AdEmAz\\hPzMjBfDNfGb]aj@nH}Z~@{KnEqFxS_KjQqs@b[}YrVui@bTwNfb@hBp\\eNkJ{T_Jc`@sNuSuOg@{CeLhGak@cGcv@jAeYsAiJiK}Re@{EhCmFfNsF`UoRpRiBlZq_@pGmExVem@`W{e@w@_Rl@e_@hGuPjD_XpGqNfEoAbVpFzGiCzEuHhU{F`JkGzLgBvC_JbIiLjFqd@n@kXtBsP`EeNtWom@lZ{OpNeObKeR`]zAhYvPfRqD|RlBzJbEp`@dDjb@sFzqAdGh_@eDtp@aXlk@gDlLnLfPfIpHzI|MtAj\\e]fLsUlNuLxM}ThEuMz@a`@vj@i@rQvHrAxObIOjSmJ~TQxYjVdQ|Fbf@ba@rJXz\\~Px^bXnQxA|HhKhZq]bCoM`Tca@~NwJ|_@_MrKsTlKqLhZeKxF}JpMuIdD_KhRqD~IaNzHGrZ{[b^cBrBwABmExDwErHb@jCyAbKiOlOuIv_@gh@lWkN~GtGtBmGvE{EdLRvL{VpMuF_B}DrFmDxDxAdBwJbTj@~IvGdXqBdXzBtHyC|m@oDnM_RtZzFxEfDq@pDeDo@k@nDgA[",
+    "resource_state": 3,
+    "polyline": "yfqpHwegwA_ACMC[Kw@a@qAe@i@EUIe@GGGEMO_AyCzAUf@tA|JBp@RdAZhCRhCHf@X~Cp@hLTrHD|EClEOxEMtHSxDS~B[nHBpAHrAVdBfDfOVn@R^rBjIFv@MhCGDe@lHOv@cAvDCTU~@EDWdAmCvIUlAKlAAdCLpZJ`BZvA`AzBv@rABLQ`ARXaDzEk@jAj@~@eAhB{@zBYnAUrA[jECx@@lARdDt@hIXADt@fBO~IcAn@M|Ak@r@w@`@YjAIl@MNI\\[Ta@Tg@hAaDR]|AiBTOLDdBaArAi@~AYrAGbAOlCDpAFxIvAnF~AlUrK`XxL|OpHpBdArCfBbMnH|@x@nAf@~@~@b@n@b@\\~WlNHCn@e@^PLB~@AXCt@a@hB{ATG~@_AdBeCl@]NCPBi@hEEv@J`@XV~C~AlBv@d@h@t@hAf@d@pAv@k@fFYrB~JfI|AhAdHbGfAv@jAn@bJlBzG~@~@Br@Yn@y@L?xBXPVDTM|FH^FLRRRFtHPnMO|HY|@G~BWp@Q\\Sn@QvCm@\\EJD~JeCvAa@f@W|AqBFM@K?c@^MjOuHvCaB|@@h@QbA_ApBu@x@SjGkAlEg@bJo@\\Gh@QhBu@n@CnD?r@GpDk@xGm@nDe@f@QdE_@rCDlAPRJLPn@~BHLJDpBAp@ILELK`ArApBvBf@VdHdBfGz@xIdD^XrHfClAd@`DvA|JlDnBb@|APdBDlACtDUv@Fv@ElCa@V?`AXpAYtAg@lCg@n@I^?NBdAf@d@NdI`@NIFSBgBZ@xAMzAPLAJI{E}@]jQIj@KXIFCNBLDFD@Ll@GfCCPGNFFLD`ABn@Ln@TnB~@hAd@lANjFSnGe@`B?`DFl@GzCgAfAOzCMnBc@XCX@rEt@l@?j@Mf@_@LWfDpArAx@`FlDxCjBhAb@lA\\rFr@|DZ~PpBjBPvA@lACdBObASzAa@nBu@vSaLvB}@hAOt@@v@HdA^~@n@n@n@~@tAZp@Zx@X`AZjBh@pFHdBFdMQlEg@vH]|GGtD?hDLjDLpA^tCp@fD|@jDdB~ElCjGbQz\\dDrFnEtFxExF|ArAn@d@p@^h@Td@JlAHn@Az@GdJuBbEkAnGyCzNsHnEcCfEgCjOwJrOcIpCaCfAkAbAqAvC_Dn@YhBk@n@Yt@a@~@s@jBiBvDaE`@i@n@wAxNui@xFqTtA_FvAcD|@_BtBaDnAaBfBiBxBiBlBgAtCkAzl@}TvGwDrEcC~@a@r@Ov@Af@FXHzBhA~HdFdG~E|BvBv@fA^hAj@hCr@pHp@`Gr@|CjDtJ`AzBnHjLl@t@b@^t@`@|@VzE`@~@?h@Cf@InA]pL_GjAi@xB{@dFeB`G{Bn@OdIqCxg@yO~Y}IxCw@hPk@`BKnCYdDy@tCiAtJqEt@q@jAmArDwG`CwEd@gAh@iBxAuGv@oHR{@z@cBj@i@\\QVIx@I`BHjAPnCvBd@Xt@XVB~BElBKtAS|CMtBHnAPv@Vl@`@b@`@hD|DzAfAx@`@r@T~AZd@B`AE\\GbCw@n@ETDb@P\\\\NVl@pApCxGtAnB~@bAh@`@pAv@lA\\z@JlEYtADj@J~ClAzDrB|@l@lAp@v@Z`FzAl@d@~@rAbEnHj@p@l@h@|@l@x@Vn@B|@Cp@OdA]n@Op@@h@N`@`@b@p@^dAtE`SzA`Fv@hBxAfCxAhBtCnCvGjFlClBRBfABZC`@Ir@_@d@e@h@cAhEcJn@gBnF_Qn@yCN{ACkAUiCBuA`@Y\\K~@R`@EpCkDbCmCl@a@bA[dBMHGl@yCPm@^o@b@g@d@[p@eATOb@M\\?RDl@f@V`@Rd@jAtDV`@tGbF`IrKl@dAd@nARz@fAdITrAZdAhDzFhBnENPbBjATVPZTt@Zt@\\\\p@f@T^Rb@hB~Fv@jDN\\HJ^XjAXl@?VMRUPYPg@v@qDV_AfBuDx@oDVs@pCoFxAgEVg@RYpA{@t@[p@M\\@z@Tp@CLMp@kATORGfAM|IcETI^CXF|@h@X`@dDpGZ\\XDXAj@KV@vAf@PALGJU?WGa@Yq@G_@@]FUJOp@UZDTPp@|@RNTLd@HnOF`@D\\RZZbDpFd@\\hARXZLd@Z`BNb@X\\jBjBjAx@`@RbBVzAb@j@ZZf@`L~YF\\p@tGT~@j@jAjBuK\\@lD_AoAcQLo@t@wBb@yAFaAJkNCw@Q_BGgAAmAFoFN}Bp@aEb@yEZ}A~BaIZ]TKR?hBnBjBjBlB`Bp@NTARMN{@OePDgDHsBPeATy@Tk@nBgDJYF[@c@@mDRu@POXO^GL?^B~@TTLb@b@Zv@b@hCVh@LN\\VzEjCf@Pz@BtEM|@FXH^TrGxEPXb@fAjApGnBrJJz@DbADrCH~AXjAd@v@b@^n@LZCZKb@YlAaA\\]Ta@dAwDz@wB`@w@X[^Mb@?h@NbIvDMiAkBcHS}@McACcA?qDDaBR_CV}ATw@Tg@t@w@f@w@Fs@C_Aa@_CEs@@eAVcDHaBC}@KkAqAuKg@sBg@yAwBgCc@{@UoA[yEA_Bb@mAxG{Ft@YhA[z@D~Av@X@PERM^m@Fo@CcAa@yIFcBj@cGdAgHlBoJoDsBPaDAM@LQ`DnDrBmBnJeAfHk@bGGbB`@xIBbAGn@_@l@SLQDYA_Bw@{@EiAZu@XyGzFc@lA@~AZxETnAb@z@vBfCf@xAf@rBpAtKJjAB|@I`BWbDAdADr@`@~BB~@Gr@g@v@u@v@Uf@Uv@W|AS~BE`B?pDBbALbAR|@jBbHLhAcIwDi@Oc@?_@LYZa@v@{@vBeAvDs@~@i@`@MbFOhB{A|JoFp[g@xDq@lGYfEG~B?~BDzBLfCzA`Pd@nGl@tLv@nKxCnRb@|GFjEApFD|HSvC]pBUbBInACrABz@TvAbAnC@b@EZQXwAt@a@p@iAjD[`@mFhF{CjEkCnCpA~DRPVJf@Hh@PtAx@rEvDZRf@P|AJf@Nn@`@v@^bANnAj@~A~@dBnATXN\\Vz@dC~NZd@p@Xt@Nh@b@dFnHn@p@rEfCd@\\jAxApAlApE`B^DhB@bCN~AQXBh@N`@TbEfArAb@vFzAzCf@bGp@bGb@|BXx@XrBbAbC|At@l@Z\\Xd@l@nAxAhDRr@X~APp@d@x@PNj@RLLLVFXBd@I|Aa@xDE`AI`KFrAFZPTRHxI@xBDn@DfBZt@F~EFj@Cb@Iv@_@zDoCbCqC`AsA`@a@XMTAVJRZRf@|IfWbCtGb@^hDrBh@h@Z~@H~@A`@Y|CAx@Hr@l@tCNjA^nNFdANZ|AwCr@s@~CeCj@]l@SpF{AVWZs@hAeD`EaJZy@dEyN`@_BLs@Hu@F{B?kGDaBDm@F]Ti@Xc@XW`@K\\CbGlAlBXZ?x@Ch@KhDwAn@Qp@Kr@BbARb@P|@n@t@|@vDtI~BbEzIpN`@d@\\B\\A`@K^WnAmB~@eBfAoCd@yBZcCh@kFZy@\\SvAPzBxAvAfA~D`C`Bv@lBh@nCZlDE`C[jCu@r@e@rAaBl@mAl@aBtFmQh@yBd@mC`B_Lf@_CvAoE~@}BPzDt@lD|@tGTfFtAtHlBxFr@tCjCdGb@pBrA~EXbCn@|BL`ADbAE~@OtAeAnF_@jCLnDNVz@~@PXPvA?hCJ~@xA`G`@vAJ@fCUbCi@^AJyCNuAl@uD^uAvHqNb@Af@Mp@Al@Dr@Vd@`@^f@T~@JdFF^PXXHlGiAz@ENLFLL|@\\lAVn@dAfAb@t@f@f@XJVBn@OZOd@Cz@PbBp@|@Pl@DbAExAQfBy@~Cw@nBm@z@EdFVhDnAt@Lr@Fp@?pAYrEJ|CQNBJ^LhCOdC@tAHzA~@xEV`@f@D\\SlA{Bp@{@pB}AlAWjAa@vBGr@}@n@qAf@oDPBZW^Gp@BhD`@f@Bb@A~A[j@?`@Fv@ZbAPT?TGx@q@b@W~Be@vAIp@[~@iAf@a@\\Gv@CpEn@fDx@p@Lt@[vA}AlA}@`AqA^pBz@~CdCrCfDx@nAp@p@h@l@t@b@x@h@~Ah@|@`AbAfAt@jDlAv@h@xCnDfBtCnAvAxDxD\\p@b@vAp@fIDhDXp@LNTP`@HX?^KZOvAcDZc@f@U`@C^@rBh@RRTd@`@l@zBrAZ\\Xh@Nj@XjBJdAAnFHvA^nAv@xB`AtATn@TpADvBHh@Vz@Ln@P`BRr@V`@d@\\t@RrChAh@b@nAjApCvCjAbBd@^z@V\\BjAXvAn@FRtAH|@UJOLi@HQL?l@L`@D\\Ev@k@d@Ob@Eb@Ll@?ZO^[\\a@`@m@^w@z@IPBPJZZr@nA|@v@d@T^@nASjAIt@B`ALl@^f@j@Rd@VpAPf@LHTBvAYTMn@i@~@[l@]bAcA|Aw@tBgBJCJDxBbC|@rCz@z@Tp@@n@CvDInCFPHFpATJJRh@ZFCX?f@BPt@xCHl@@fCKxAwArICvAt@~KCnC}Blp@cDnx@fHeGjGaGlC{AlBuAVKVA^JfAv@|@f@l@TzABfAAl@YnEkEvF_CjCuBl@KdAJpECpEHpAXlFxBdBdA~F`F~@d@vDp@|@GtDu@|C_ApDsAbBe@dD[lBAvId@|@UhAk@|AYnCYbBRpAV|AHlACn@EnAg@pGmBxGcAj@MFMBYAgAPu@|@oA^QbAnGd@`BPxALvBGfI?~AFf@FPRZhBpAVZT`@Jh@Dz@Cd@k@hFwC`[GnA`@tWAhA_@fMMhAm@dEAT@p@ThAFNXZVJ~B@l@Nd@ZfA`ALRRj@B\\?lBIxC?|X`A|LThB^tAlCjH^tAVxBjAnMPfALf@b@jAt@fAbGzGh@t@x@zAjB|Dz@hAfA~@pJnHLJLPLj@Df@Ad@M~@u@bDQhBGrA@|BR|Bb@jD^rAhHpSVh@X\\f@d@bAr@\\JVBrAKR@^Jv@h@fFfE`@Fh@SvEcD\\]Ld@j@xF?lAsAjN]fG_@dIWlBYlAoGnN]`ASlAG|@BlFCj@It@e@zAUd@o@`AyEdGi@v@_@z@Yz@Uz@Ox@sFl]YpA]~@o@dA}@l@sAPuG`@oANy@`@aAr@g@f@w@jAaAxBa@pA]xASdBy@fL_@zGUhGOfFIzEIrBYlAc@z@g@v@cEnDg@f@k@t@}AdD]h@_@^kAz@{CdBi@h@]p@{@dCa@v@kBpBU\\M\\Ot@I|@s@|Pr@}PH}@Nu@L]T]jBqB`@w@z@eC\\q@h@i@zCeBjA{@^_@\\i@|AeDj@u@f@g@bEoDf@w@b@{@XmAHsBH{ENgFTiG^{Gx@gLReB\\yA`@qA`AyBv@kAf@g@`As@x@a@nAOtGa@rAQ\\DTXp@`B\\f@\\^^Z`@Rd@Nd@FrHNrARfAh@t@p@bBzBb@d@zAfAn@Vp@JrNLvAKbAYh@]hA}@xGiGhA_Av@QhAa@fA?bCTbGx@zBVfBBfAWb@S^Wv@aAr@gAj@wAZsBbAiK^{BX_A\\c@p@c@rDmBtGuDb@c@f@gAbCcGtBwEh@u@hDqA^i@b@kAhAkD\\q@z@u@fBsA`@g@x@kB~AyEhAgCl@s@r@a@nO}Ft@i@t@y@r@k@v@[j@AfEVl@Ah@GpA[t@zA`@h@zI~HjCtAhFfFbGxB|IpA`BtAvAbBfHfCd@bCFn@\\JpA_@rA|Ar@rAZPp@D`@KZW|@_BZMTCTD`@`@f@x@pCnCXNhAJdCBzDv@f@NtH~Dd@xAZjBe@`MAnCe@hJb@nAzA|@bEdB`@ZdAbA|BfCjBfDP~@E~CBf@`CsCtIqQd@k@l@k@bEsEbDuFn@yA~EaU~@cCNw@VqFT{BPm@Xg@tDiEh@WrMaFzAeA~@_A|@cBv@qBh@_CdCaMfAiGvBkKd@cB~@_Cx@sAv@y@j@g@pJmG~BuBdCuClBmCjBqDpB}E~BcHpBoFzAcDfBwC~AuBnAuAlAkAdCkBhEqC~Aq@tAe@`BYpAGlABtBZdIjBtCVvB@zCYfCu@hXoL[wAs@mBoFaLk@sA_BiGgFkVWm@wM_S[Ue@CkFJaDk@mABSGWe@cC_KE_ATgFLeAbEwWTcBJoADgAGwDIcA{@aIsAgLaB}V?eADs@b@mD^oEBsCAyDQqDKi@u@mCsCwGiA{BwCcESe@i@_BMm@PmA`AwAR_@J]Jm@JWNQh@Wb@]j@UvGyBtAm@l@c@r@u@~QuOhAYlMi@n@Kh@Y`FgGrF}FzCmDpAmBpBgDv@gAt@i@dDaB\\]Vc@xVem@n@oAbSy\\lAqEN_AB}AkAaM?wBPaFPoRH{@Nk@Xs@bBoCRk@fByGP}@jC{TLe@Zm@vBoC^w@x@eDb@uALOpAg@fAY^@lBl@dAFl@Hn@PtBv@v@LxALtChAXFXE`Bq@vBm@`Ai@`@m@rAaDl@}@v@g@tCw@zCmApAYlF}@vA]nAg@x@e@`CaC|@m@VM^Ij@?dCLt@ArAa@~@]^i@Vi@lAqERm@\\u@rBiC|BkCn@gA`@kAz@kGnDe\\LcBDyC@gHH{CNiBvA{L\\wB`EeNbEiIrK_Vr@iCbA_D`@eAb@u@\\c@pAiA|@e@vGaCjGeCf@WrBgBpNeO`H_N`BeChDTlDDhCLA^JXRHFANOBM@]xBLzFLl@NNDnDfBhCzBhDjD|FbCvA\\vCD~@QvAq@jDqB`@EhBBtAl@`@HlAL`BQtIx@b@L`FzBtBx@l@FdMt@bO`Bx@D`@CpBYvJgBbKqAlCWlACj[^t\\tA~CRxRzBfBCnUuB`D]n@M|MqFfSiK`Bm@lJwB~AS`JYlIKvB@`AOnEgAvBUzBAb@Fb@X^^xGdIj@f@`OlHd@Xh@l@|A~BjA|A`Az@ZRXLn@J`BGTDfCbAf@BbACf@Ef@[^_AjEcF`RkQt@y@v@wAfAyCjBwE^s@hBgCp@mAr@u@`A]zBgBt@y@dE_EfB{BpJaQjCcG|@qELk[l@uCnPn@tQ_AV@JWlECh@Hl@RlF|Cn@PbBX~Av@XVr@bBP~@@tAUpCAhBHVXJb@BlAQfAArAHt@IxAm@`F{C~@g@dAIl@WbBcAv@Ut@AbB^h@?\\KhAm@j@IlG@x@D^Jb@Z|AtC\\f@xTpO|@d@~Ah@pAZtDd@n@VnBrAf^jYtBxBdC|Bv@`@|@JfE]b@BPDvJxGt@`@pD|AzIdDd@f@x@dAv@x@fBzA~CdCjAp@|DfB|@j@hFvDf@Z~@R|@JnGFnAFv@Lx@Zz@h@x@dAlCtEb@l@TTr@{@v@yA|@yBZa@|AoAdAkAxBsC|@w@x@c@t@s@jAeBxB_BPYPg@f@cEZqBl@qBbBuDtEgJdB{CpCeEn@qBVk@f@e@~NwJt@W|GgBlCi@zPuGv@gAfGaNrAiClKqL`@WTGhCWRIVQh@q@l@_@tDcAhCmA|@UtAUnAa@n@k@zAqCbAeCh@y@fAaA~GsDn@c@\\[Z_@R]VaAf@iDRu@V]d@a@TK\\EjDKnADNC|@}@t@o@n@G`AA\\Gd@UVSbDyD\\k@d@uAf@gB\\YXOjCRnD[zCqCnF_EvD_EtDkGxB}BzBa@rHWnCPbL{@dA[l@{@Hw@K_CDUHUdBuAhAkBr@CxAFjAZj@Dl@AjCyAtIsMl@u@t@e@bCeApCsBpBu@f@[f@c@`AyB~@aBfJ}K~DwExH}Kr@w@dAq@~EwA\\U|@_AfAaAlCuAjC{Ah@WV@\\TxCrEd@b@XFNAVIRUXy@^iCNi@|CuDx@e@vDEp@HvA`@p@Bp@Ut@o@nCoEbBgGlAkC~@gBx@y@bAc@vAYzAa@pCoALKFMBUCQIMKGyA[KW@YBQLQjDmC^Sf@KdAX~@p@\\PTCLSFS^sFNm@^m@NGb@AnRt@~@ZhAhArAbBv@j@hA`@N@`DQpERl@GrCo@~Ac@z@ObAI~@@rALfA^r@Zv@HdBMtB?rDr@lA?`GoCr@IxBB`EEhHs@tB]rBW`Cs@zAShB?lDb@`@@v@I|@WTMd@a@z@aAbCcDdA}Aj@qANs@Hs@LEJOBUh@Ej@BfH|A`HnAvB\\fCj@`Ab@~@j@vAvA@Ts@zCq@Z_@LIe@iAs@Od@[hCgA["
+  },
+  "map_urls": {
+    "url": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/OSZFZWM4JOIGTQ42HFD3PGY7NWCUGPCWYQLDCQP7JCO22ZAHFUOHUCUECOCCKEGNCV345T2TH5ISSSRN2MULNQWJRUDZN35MJP7GOZQ=",
+    "retina_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/OHCAUGXLS4OQZKOKVKVUQATB5K4A5S6ONUD3ZCE25A5H6ZNEA5WAOYAVTNHID67TQE6TMZQZQEWDDN3AWOB7GUSCXGI5YBGKH5EOYSI=",
+    "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/OHCAUGXLS4OQZKOKVKVUQATB5K4A5S6ONUD3ZCE25A5H6ZNEA5WAOYAVTNHID67TQE6TMZQZQEWDDN3AWOB7GUSCXGI5YBGKH5EOYSI=",
+    "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/PZRP3ZXK4RUWHMR7U5A4CRMAPACCRZLRO7QBACOOHJS6DCNEMOGTRL2ZTUL367UVXX4SHMMXTIS7BCZIKIGJDD6L32TMPANX4IKGBMI="
+  },
+  "name": "Praha - Slapy - Orlík - Týn nad Vltavou",
+  "private": false,
+  "resource_state": 3,
+  "starred": true,
+  "sub_type": 1,
+  "created_at": "2025-08-07T07:01:48Z",
+  "updated_at": "2025-08-08T07:09:57Z",
+  "timestamp": 1754550108,
+  "type": 1,
+  "estimated_moving_time": 26053,
+  "waypoints": [],
+  "segments": [
+    {
+      "id": 1224925,
+      "resource_state": 2,
+      "name": "GOLF Braník",
+      "activity_type": "Ride",
+      "distance": 1944.57,
+      "average_grade": -0.2,
+      "maximum_grade": 0,
+      "elevation_high": 195,
+      "elevation_low": 191.2,
+      "start_latlng": [
+        50.03062876872718,
+        14.403165439143777
+      ],
+      "end_latlng": [
+        50.0149947591126,
+        14.397135833278298
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Praha 5",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 2065089,
+      "resource_state": 2,
+      "name": "Branik - Zbraslav",
+      "activity_type": "Ride",
+      "distance": 5932.6,
+      "average_grade": 0.1,
+      "maximum_grade": 5.3,
+      "elevation_high": 199.8,
+      "elevation_low": 187.6,
+      "start_latlng": [
+        50.0289514167,
+        14.40155555
+      ],
+      "end_latlng": [
+        49.9792525333,
+        14.3983644
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 2092617,
+      "resource_state": 2,
+      "name": "Segment",
+      "activity_type": "Ride",
+      "distance": 1758.9,
+      "average_grade": 4.5,
+      "maximum_grade": 14.3,
+      "elevation_high": 405.2,
+      "elevation_low": 325.2,
+      "start_latlng": [
+        49.77855342440307,
+        14.393708389252424
+      ],
+      "end_latlng": [
+        49.76898782886565,
+        14.400300839915872
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Čím",
+      "state": "Středočeský kraj",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 2212335,
+      "resource_state": 2,
+      "name": "Vysehrad Tunel 2 Barrandovsky most",
+      "activity_type": "Ride",
+      "distance": 2939.84,
+      "average_grade": -0.1,
+      "maximum_grade": 6.3,
+      "elevation_high": 200.4,
+      "elevation_low": 193.4,
+      "start_latlng": [
+        50.06281167268753,
+        14.41596427001059
+      ],
+      "end_latlng": [
+        50.03857623785734,
+        14.408058794215322
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 4059308,
+      "resource_state": 2,
+      "name": "Riverside by the Tracks",
+      "activity_type": "Ride",
+      "distance": 2957.5,
+      "average_grade": 0.1,
+      "maximum_grade": 3.1,
+      "elevation_high": 194.6,
+      "elevation_low": 187,
+      "start_latlng": [
+        50.019485,
+        14.396804
+      ],
+      "end_latlng": [
+        49.993777,
+        14.404591
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 4382592,
+      "resource_state": 2,
+      "name": "Koh-I-Noor to Belehradska",
+      "activity_type": "Ride",
+      "distance": 1471.7,
+      "average_grade": -0.7,
+      "maximum_grade": 3.4,
+      "elevation_high": 211.3,
+      "elevation_low": 199.7,
+      "start_latlng": [
+        50.067106,
+        14.459769
+      ],
+      "end_latlng": [
+        50.06552,
+        14.439967
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 4669796,
+      "resource_state": 2,
+      "name": "náměstí Edvarda Beneše Climb",
+      "activity_type": "Ride",
+      "distance": 679.5,
+      "average_grade": 14.7,
+      "maximum_grade": 57,
+      "elevation_high": 467.2,
+      "elevation_low": 367,
+      "start_latlng": [
+        49.452876,
+        14.361872
+      ],
+      "end_latlng": [
+        49.447285,
+        14.3604
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 1,
+      "city": "Milevsko",
+      "state": "South Bohemian Region",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 4740021,
+      "resource_state": 2,
+      "name": "Štěchovice - Slapy",
+      "activity_type": "Ride",
+      "distance": 4083.9,
+      "average_grade": 5,
+      "maximum_grade": 31,
+      "elevation_high": 413.4,
+      "elevation_low": 208.7,
+      "start_latlng": [
+        49.849863,
+        14.406234
+      ],
+      "end_latlng": [
+        49.819458,
+        14.387137
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 2,
+      "city": "Štěchovice",
+      "state": "Central Bohemian Region",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 5073383,
+      "resource_state": 2,
+      "name": "Davle (to Slapy) - pavé",
+      "activity_type": "Ride",
+      "distance": 652.8,
+      "average_grade": 0,
+      "maximum_grade": 4.5,
+      "elevation_high": 158.2,
+      "elevation_low": 156,
+      "start_latlng": [
+        49.893552,
+        14.401424
+      ],
+      "end_latlng": [
+        49.888655,
+        14.396729
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Davle",
+      "state": "Central Bohemian Region",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 5302812,
+      "resource_state": 2,
+      "name": "Sprintík u Folimanky",
+      "activity_type": "Ride",
+      "distance": 677.8,
+      "average_grade": 0.1,
+      "maximum_grade": 2.8,
+      "elevation_high": 205,
+      "elevation_low": 200.8,
+      "start_latlng": [
+        50.065638,
+        14.433384
+      ],
+      "end_latlng": [
+        50.065999,
+        14.424847
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 7514226,
+      "resource_state": 2,
+      "name": "Vnislavova Mini Sprint",
+      "activity_type": "Ride",
+      "distance": 312.3,
+      "average_grade": -1.6,
+      "maximum_grade": 3.8,
+      "elevation_high": 205.5,
+      "elevation_low": 199.8,
+      "start_latlng": [
+        50.06654,
+        14.421425
+      ],
+      "end_latlng": [
+        50.067362,
+        14.417492
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 8084235,
+      "resource_state": 2,
+      "name": "Cholínek :)",
+      "activity_type": "Ride",
+      "distance": 1153.5,
+      "average_grade": 4,
+      "maximum_grade": 42.8,
+      "elevation_high": 365.5,
+      "elevation_low": 317.5,
+      "start_latlng": [
+        49.716154,
+        14.326373
+      ],
+      "end_latlng": [
+        49.707784,
+        14.329154
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Křepenice",
+      "state": "Central Bohemian Region",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 8705917,
+      "resource_state": 2,
+      "name": "Stezka Komořany - Zbraslav",
+      "activity_type": "Ride",
+      "distance": 1986,
+      "average_grade": 0,
+      "maximum_grade": 4.5,
+      "elevation_high": 201.9,
+      "elevation_low": 191,
+      "start_latlng": [
+        49.991249,
+        14.403546
+      ],
+      "end_latlng": [
+        49.974075,
+        14.398876
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 9928132,
+      "resource_state": 2,
+      "name": "105 Climp  ",
+      "activity_type": "Ride",
+      "distance": 10031.5,
+      "average_grade": -0.9,
+      "maximum_grade": 10.2,
+      "elevation_high": 471,
+      "elevation_low": 355.7,
+      "start_latlng": [
+        49.304567,
+        14.380912
+      ],
+      "end_latlng": [
+        49.228231,
+        14.423931
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Dražíč",
+      "state": "South Bohemian Region",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 10186045,
+      "resource_state": 2,
+      "name": "Opičí Časovka, Podolská vodárna - Dvorce",
+      "activity_type": "Ride",
+      "distance": 1390.1,
+      "average_grade": -0.1,
+      "maximum_grade": 4.6,
+      "elevation_high": 194.6,
+      "elevation_low": 189.3,
+      "start_latlng": [
+        50.059206,
+        14.419278
+      ],
+      "end_latlng": [
+        50.047279,
+        14.413948
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 11678431,
+      "resource_state": 2,
+      "name": "U Vršovického nádr. - Vyšehradská (A23)",
+      "activity_type": "Ride",
+      "distance": 2437.5,
+      "average_grade": -0.4,
+      "maximum_grade": 7.6,
+      "elevation_high": 217,
+      "elevation_low": 208.4,
+      "start_latlng": [
+        50.066154,
+        14.448278
+      ],
+      "end_latlng": [
+        50.067513,
+        14.417505
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Hlavní město Praha",
+      "country": "Czech Republic",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 15419012,
+      "resource_state": 2,
+      "name": "Chotilsko climb to PL",
+      "activity_type": "Ride",
+      "distance": 990.2,
+      "average_grade": 5.8,
+      "maximum_grade": 13.9,
+      "elevation_high": 418.6,
+      "elevation_low": 361,
+      "start_latlng": [
+        49.768392,
+        14.352392
+      ],
+      "end_latlng": [
+        49.761288,
+        14.34561
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Chotilsko",
+      "state": null,
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 15777191,
+      "resource_state": 2,
+      "name": "Milevsko - Veselicko",
+      "activity_type": "Ride",
+      "distance": 5699.9,
+      "average_grade": -0.2,
+      "maximum_grade": 9.9,
+      "elevation_high": 507.8,
+      "elevation_low": 477.4,
+      "start_latlng": [
+        49.441419,
+        14.358855
+      ],
+      "end_latlng": [
+        49.391411,
+        14.35898
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Milevsko",
+      "state": null,
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 17650773,
+      "resource_state": 2,
+      "name": "Spojovací cyklo I",
+      "activity_type": "Ride",
+      "distance": 1737.2,
+      "average_grade": -1.1,
+      "maximum_grade": 11.4,
+      "elevation_high": 369,
+      "elevation_low": 333.5,
+      "start_latlng": [
+        49.702876,
+        14.339013
+      ],
+      "end_latlng": [
+        49.697034,
+        14.319734
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Křepenice",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 17650779,
+      "resource_state": 2,
+      "name": "Spojovací cyklo II",
+      "activity_type": "Ride",
+      "distance": 2357.7,
+      "average_grade": 0,
+      "maximum_grade": 6.1,
+      "elevation_high": 365.2,
+      "elevation_low": 348.2,
+      "start_latlng": [
+        49.694322,
+        14.324875
+      ],
+      "end_latlng": [
+        49.677182,
+        14.319094
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Dublovice",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 17650815,
+      "resource_state": 2,
+      "name": "Chramosty - Skrýšov",
+      "activity_type": "Ride",
+      "distance": 2760.3,
+      "average_grade": -0.3,
+      "maximum_grade": 11.2,
+      "elevation_high": 370.9,
+      "elevation_low": 304.3,
+      "start_latlng": [
+        49.66472,
+        14.320808
+      ],
+      "end_latlng": [
+        49.647201,
+        14.30035
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Dublovice",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 18146692,
+      "resource_state": 2,
+      "name": "Stara Zivohost Climb",
+      "activity_type": "Ride",
+      "distance": 1864.4,
+      "average_grade": 4.8,
+      "maximum_grade": 18,
+      "elevation_high": 400,
+      "elevation_low": 311,
+      "start_latlng": [
+        49.759635,
+        14.415023
+      ],
+      "end_latlng": [
+        49.761322,
+        14.39506
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 1,
+      "city": "Chotilsko",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 20632644,
+      "resource_state": 2,
+      "name": "Štěchovičák k odbočce P",
+      "activity_type": "Ride",
+      "distance": 2144.8,
+      "average_grade": 6.1,
+      "maximum_grade": 12.9,
+      "elevation_high": 232,
+      "elevation_low": 101.8,
+      "start_latlng": [
+        49.846584,
+        14.405754
+      ],
+      "end_latlng": [
+        49.829262,
+        14.395292
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 1,
+      "city": "Štěchovice",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 20632688,
+      "resource_state": 2,
+      "name": "Štěchovičák tempo P",
+      "activity_type": "Ride",
+      "distance": 1484.6,
+      "average_grade": 2.9,
+      "maximum_grade": 7.9,
+      "elevation_high": 146.2,
+      "elevation_low": 101.8,
+      "start_latlng": [
+        49.851378,
+        14.406405
+      ],
+      "end_latlng": [
+        49.839419,
+        14.401379
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Štěchovice",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 23217834,
+      "resource_state": 2,
+      "name": "river train",
+      "activity_type": "Ride",
+      "distance": 1541.2,
+      "average_grade": 0.3,
+      "maximum_grade": 3.9,
+      "elevation_high": 197.2,
+      "elevation_low": 189.9,
+      "start_latlng": [
+        50.006002,
+        14.401658
+      ],
+      "end_latlng": [
+        49.992376,
+        14.40378
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Praha 12",
+      "state": "Hlavní město Praha",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 23717539,
+      "resource_state": 2,
+      "name": "Sprint kolem Golf. hriste",
+      "activity_type": "Ride",
+      "distance": 641.2,
+      "average_grade": -0.5,
+      "maximum_grade": 0.5,
+      "elevation_high": 183.2,
+      "elevation_low": 179.8,
+      "start_latlng": [
+        50.020982,
+        14.396906
+      ],
+      "end_latlng": [
+        50.015223,
+        14.397093
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Praha 12",
+      "state": "Hlavní město Praha",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 25548158,
+      "resource_state": 2,
+      "name": "Němějice-Dražíč",
+      "activity_type": "Ride",
+      "distance": 2972.6,
+      "average_grade": -0.1,
+      "maximum_grade": 10.5,
+      "elevation_high": 473.6,
+      "elevation_low": 462.6,
+      "start_latlng": [
+        49.326569,
+        14.357732
+      ],
+      "end_latlng": [
+        49.305473,
+        14.380341
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Slabčice",
+      "state": "Jihočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 27962565,
+      "resource_state": 2,
+      "name": "Podmoky climb",
+      "activity_type": "Ride",
+      "distance": 2814.4,
+      "average_grade": 2.2,
+      "maximum_grade": 12.6,
+      "elevation_high": 436.8,
+      "elevation_low": 375.2,
+      "start_latlng": [
+        49.604457,
+        14.257129
+      ],
+      "end_latlng": [
+        49.59314,
+        14.226581
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Krásná Hora nad Vltavou",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 27962601,
+      "resource_state": 2,
+      "name": "Orlík DH",
+      "activity_type": "Ride",
+      "distance": 1891.6,
+      "average_grade": -1.9,
+      "maximum_grade": 3.2,
+      "elevation_high": 417,
+      "elevation_low": 379.8,
+      "start_latlng": [
+        49.595752,
+        14.202945
+      ],
+      "end_latlng": [
+        49.60588,
+        14.185444
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Milešov",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 27975157,
+      "resource_state": 2,
+      "name": "18 - Vyhlídka ",
+      "activity_type": "Ride",
+      "distance": 525.9,
+      "average_grade": 5.8,
+      "maximum_grade": 17.7,
+      "elevation_high": 382,
+      "elevation_low": 351.6,
+      "start_latlng": [
+        49.674919,
+        14.320907
+      ],
+      "end_latlng": [
+        49.670319,
+        14.32137
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Dublovice",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 27975197,
+      "resource_state": 2,
+      "name": "Chramosty -  Brzina",
+      "activity_type": "Ride",
+      "distance": 1152.4,
+      "average_grade": -5.5,
+      "maximum_grade": 0.7,
+      "elevation_high": 377.6,
+      "elevation_low": 313.8,
+      "start_latlng": [
+        49.664578,
+        14.32069
+      ],
+      "end_latlng": [
+        49.657142,
+        14.311089
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Dublovice",
+      "state": "Středočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 28156863,
+      "resource_state": 2,
+      "name": "Na tyn",
+      "activity_type": "Ride",
+      "distance": 2122.2,
+      "average_grade": 1.7,
+      "maximum_grade": 9.2,
+      "elevation_high": 399.2,
+      "elevation_low": 363.6,
+      "start_latlng": [
+        49.252321,
+        14.421485
+      ],
+      "end_latlng": [
+        49.233481,
+        14.421078
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Týn nad Vltavou",
+      "state": "Jihočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 28496249,
+      "resource_state": 2,
+      "name": "TT Rovinka Braník",
+      "activity_type": "Ride",
+      "distance": 474.2,
+      "average_grade": -0.2,
+      "maximum_grade": 1.1,
+      "elevation_high": 185.8,
+      "elevation_low": 184.6,
+      "start_latlng": [
+        50.030529,
+        14.403066
+      ],
+      "end_latlng": [
+        50.026801,
+        14.399814
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Praha 4",
+      "state": "Hlavní město Praha",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 32407219,
+      "resource_state": 2,
+      "name": "Vesec - Kovářov",
+      "activity_type": "Ride",
+      "distance": 927.1,
+      "average_grade": 2.9,
+      "maximum_grade": 7.2,
+      "elevation_high": 534.4,
+      "elevation_low": 507.2,
+      "start_latlng": [
+        49.514998,
+        14.262355
+      ],
+      "end_latlng": [
+        49.515929,
+        14.27483
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Kovářov",
+      "state": "Jihočeský kraj",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 34899718,
+      "resource_state": 2,
+      "name": "Slapy - Buš",
+      "activity_type": "Ride",
+      "distance": 1127,
+      "average_grade": 1.5,
+      "maximum_grade": 10,
+      "elevation_high": 357,
+      "elevation_low": 335,
+      "start_latlng": [
+        49.811299,
+        14.397192
+      ],
+      "end_latlng": [
+        49.804317,
+        14.386607
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Slapy",
+      "state": "Central Bohemia",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    },
+    {
+      "id": 38108492,
+      "resource_state": 2,
+      "name": "Výton - Kublov po stezce",
+      "activity_type": "Ride",
+      "distance": 1379.1,
+      "average_grade": 0.2,
+      "maximum_grade": 1.4,
+      "elevation_high": 199.2,
+      "elevation_low": 196.4,
+      "start_latlng": [
+        50.066106,
+        14.415242
+      ],
+      "end_latlng": [
+        50.054551,
+        14.417934
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "Prague",
+      "state": "Prague",
+      "country": "Czechia",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    }
+  ]
 }

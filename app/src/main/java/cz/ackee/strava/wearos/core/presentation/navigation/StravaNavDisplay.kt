@@ -8,6 +8,7 @@ import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
 import androidx.wear.compose.navigation3.rememberSwipeDismissableSceneStrategy
+import cz.ackee.strava.wearos.feature.routes.domain.Route
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailDestination
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailScreen
 import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListDestination
@@ -31,7 +32,10 @@ fun StravaNavDisplay() {
                 )
             }
             entry<RouteDetailDestination> { key ->
-                RouteDetailScreen(routeId = key.routeId)
+                RouteDetailScreen(
+                    routeId = Route.Id(key.routeId),
+                    onBack = { backStack.removeLastOrNull() },
+                )
             }
         },
     )

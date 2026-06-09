@@ -1,16 +1,81 @@
 {
-  "id": 3,
-  "name": "Šumava Crossings",
-  "distance": 21976.0,
-  "elevation_gain": 648.0,
-  "estimated_moving_time": 7800,
-  "map": {
-    "id": "r3",
-    "polyline": "oakjH_psqA_X~W_XnKwQvQg^f^_Xf^oKvQvQf^f^f^vQvQ~Wg^~Wo}@vQo}@?o}@",
-    "summary_polyline": "oakjH_psqA_X~W_XnKwQvQg^f^_Xf^oKvQvQf^f^f^vQvQ~Wg^~Wo}@vQo}@?o}@"
-  },
   "athlete": {
-    "id": 1003,
-    "resource_state": 1
-  }
+    "id": 48616966,
+    "username": "rveis",
+    "resource_state": 2,
+    "firstname": "Roman",
+    "lastname": "Veis",
+    "bio": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "sex": "M",
+    "premium": true,
+    "summit": true,
+    "created_at": "2019-11-29T11:40:02Z",
+    "updated_at": "2026-05-05T16:05:14Z",
+    "badge_type_id": 1,
+    "profile_medium": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/48616966/38568322/1/medium.jpg",
+    "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/48616966/38568322/1/large.jpg",
+    "friend": null,
+    "follower": null
+  },
+  "description": null,
+  "distance": 4944.647703651549,
+  "elevation_gain": 15.370000000000005,
+  "id": 3407820227083270700,
+  "id_str": "3407820227083270448",
+  "map": {
+    "id": "r3407820227083270448",
+    "summary_polyline": "{z{wFyq_z@~@s@mBxAlByANGp@CZONWF?BE?G`A_ArB_Cf@]pBu@bAYVQFHH@NGf@NpChAtAPvFj@zAHxEl@f@DFCBFZTv@?^Gl@YVEMt@GBAHBFe@n@@Lm@\\IHYv@OvAObIy@tLIhEKdAe@vAMKmEbKq@fByG|O@\\eBdEi@|@@AUBY?_VqCeCSsA?iPd@q@QCGGa@Cy@l@gEN_Bx@iP?wAOiEQ}A_@gBa@qAy@eBYw@Om@MgBB{@Hs@VgAb@q@^Sd@IjKs@dEs@|@e@rFcE_Ar@",
+    "resource_state": 3,
+    "polyline": "{z{wFyq_z@~@s@mBxAlByANGp@CZONWF?BE?G`A_ArB_Cf@]pBu@bAYVQFHH@NGf@NpChAtAPvFj@zAHxEl@f@DFCBFZTv@?^Gl@YVEMt@GBAHBFe@n@@Lm@\\IHYv@OvAObIy@tLIhEKdAe@vAMKmEbKq@fByG|O@\\eBdEi@|@@AUBY?_VqCeCSsA?iPd@q@QCGGa@Cy@l@gEN_Bx@iP?wAOiEQ}A_@gBa@qAy@eBYw@Om@MgBB{@Hs@VgAb@q@^Sd@IjKs@dEs@|@e@rFcE_Ar@"
+  },
+  "map_urls": {
+    "url": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/QVMTRXCURE5DJFRUX6BMY4FBMWN5OOT6GU72E6UYKITLN2GCI44SOIANDBMKX7CLUPFPCIY5BLWHOXA5KH4XLRJJV5WYMDH3LL7IEYQ=",
+    "retina_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/AYZBNFG55DKO4SRYZTUFKFS2G5QNT3IJLQF6G5RIREFLDBEYNZJGZFOFLVN5LYPKTEEVULFS6TUUVUTB5SLA5XL46GEHFOFNCEV46OI=",
+    "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/AYZBNFG55DKO4SRYZTUFKFS2G5QNT3IJLQF6G5RIREFLDBEYNZJGZFOFLVN5LYPKTEEVULFS6TUUVUTB5SLA5XL46GEHFOFNCEV46OI=",
+    "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/maps/THJ72MMPTXPO7VMR53KGR5CPB3YHN3GVZK2PPYF3OWPVLSPNIL7XHISU4NGM4CVXJGIQ5RF3PO6MSLN722RA75NQYAHRAOJYZ7UAAEA="
+  },
+  "name": "Via Po-Via Nazionale Monte Petrosu-Via Antonio Gramsci",
+  "private": true,
+  "resource_state": 3,
+  "starred": true,
+  "sub_type": 5,
+  "created_at": "2025-09-29T19:00:25Z",
+  "updated_at": "2025-09-29T19:00:56Z",
+  "timestamp": 1759172425,
+  "type": 2,
+  "estimated_moving_time": 1783,
+  "waypoints": [],
+  "segments": [
+    {
+      "id": 20369633,
+      "resource_state": 2,
+      "name": "Euro Spin Sprint",
+      "activity_type": "Run",
+      "distance": 576.7,
+      "average_grade": -0.4,
+      "maximum_grade": 1.3,
+      "elevation_high": 12.1,
+      "elevation_low": 8.9,
+      "start_latlng": [
+        40.772855,
+        9.663866
+      ],
+      "end_latlng": [
+        40.775777,
+        9.658223
+      ],
+      "elevation_profile": null,
+      "elevation_profiles": null,
+      "climb_category": 0,
+      "city": "San Teodoro",
+      "state": "Sardegna",
+      "country": "Italy",
+      "private": false,
+      "hazardous": false,
+      "starred": false
+    }
+  ]
 }

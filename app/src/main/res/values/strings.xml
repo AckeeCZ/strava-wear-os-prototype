@@ -4,4 +4,6 @@
     <string name="routes_list_error">Failed to load routes</string>
     <string name="routes_list_retry">Retry</string>
     <string name="routes_list_route_metrics">%1$.1f km · +%2$d m</string>
+    <string name="route_detail_error">Failed to load route</string>
+    <string name="route_detail_retry">Retry</string>
 </resources>
