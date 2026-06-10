@@ -10,6 +10,18 @@ fun GoogleMap.drawPolyline(
     polyline: List<LatLng>,
     colorArgb: Int,
     widthPx: Float,
+) {
+    if (polyline.isEmpty()) return
+    addPolyline(
+        PolylineOptions()
+            .addAll(polyline)
+            .color(colorArgb)
+            .width(widthPx),
+    )
+}
+
+fun GoogleMap.fitCameraToPolyline(
+    polyline: List<LatLng>,
     cameraPaddingPx: Int,
     onReady: (() -> Unit)? = null,
 ) {
@@ -17,12 +29,6 @@ fun GoogleMap.drawPolyline(
         onReady?.invoke()
         return
     }
-    addPolyline(
-        PolylineOptions()
-            .addAll(polyline)
-            .color(colorArgb)
-            .width(widthPx),
-    )
     val bounds = LatLngBounds.builder().apply {
         polyline.forEach { include(it) }
     }.build()
