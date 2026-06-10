@@ -47,8 +47,8 @@ import androidx.wear.compose.ui.tooling.preview.WearPreviewDevices
 import androidx.wear.compose.ui.tooling.preview.WearPreviewFontScales
 import com.google.android.gms.maps.model.LatLng
 import cz.ackee.strava.wearos.R
-import cz.ackee.strava.wearos.core.presentation.map.rememberMapStyle
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
+import cz.ackee.strava.wearos.feature.map.presentation.rememberMapStyle
 import cz.ackee.strava.wearos.feature.routes.domain.model.HighlightedSegment
 import cz.ackee.strava.wearos.feature.routes.domain.model.Route
 import cz.ackee.strava.wearos.feature.routes.domain.model.Segment

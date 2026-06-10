@@ -26,11 +26,11 @@ import androidx.wear.compose.material3.Text
 import androidx.wear.compose.ui.tooling.preview.WearPreviewDevices
 import androidx.wear.compose.ui.tooling.preview.WearPreviewFontScales
 import cz.ackee.strava.wearos.R
-import cz.ackee.strava.wearos.core.presentation.map.WearMap
-import cz.ackee.strava.wearos.core.presentation.map.drawPolyline
-import cz.ackee.strava.wearos.core.presentation.map.fitCameraToPolyline
-import cz.ackee.strava.wearos.core.presentation.map.rememberMapStyle
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
+import cz.ackee.strava.wearos.feature.map.presentation.WearMap
+import cz.ackee.strava.wearos.feature.map.presentation.drawPolyline
+import cz.ackee.strava.wearos.feature.map.presentation.fitCameraToPolyline
+import cz.ackee.strava.wearos.feature.map.presentation.rememberMapStyle
 import cz.ackee.strava.wearos.feature.routes.domain.model.Route
 import cz.ackee.strava.wearos.feature.routes.domain.model.Segment
 import org.koin.androidx.compose.koinViewModel

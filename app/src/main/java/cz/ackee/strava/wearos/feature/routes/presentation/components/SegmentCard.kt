@@ -26,10 +26,10 @@ import androidx.wear.compose.material3.Text
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MapStyleOptions
 import cz.ackee.strava.wearos.R
-import cz.ackee.strava.wearos.core.presentation.map.WearMapStatic
-import cz.ackee.strava.wearos.core.presentation.map.drawPolyline
-import cz.ackee.strava.wearos.core.presentation.map.fitCameraToPolyline
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
+import cz.ackee.strava.wearos.feature.map.presentation.WearMapStatic
+import cz.ackee.strava.wearos.feature.map.presentation.drawPolyline
+import cz.ackee.strava.wearos.feature.map.presentation.fitCameraToPolyline
 import cz.ackee.strava.wearos.feature.routes.domain.model.HighlightedSegment
 import kotlin.time.Duration
 
