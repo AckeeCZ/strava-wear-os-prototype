@@ -28,6 +28,7 @@ import com.google.android.gms.maps.model.MapStyleOptions
 import cz.ackee.strava.wearos.R
 import cz.ackee.strava.wearos.core.presentation.map.WearMapStatic
 import cz.ackee.strava.wearos.core.presentation.map.drawPolyline
+import cz.ackee.strava.wearos.core.presentation.map.fitCameraToPolyline
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
 import cz.ackee.strava.wearos.feature.routes.domain.model.HighlightedSegment
 import kotlin.time.Duration
@@ -97,6 +98,9 @@ private fun SegmentMiniMap(polyline: List<LatLng>, mapStyle: MapStyleOptions, mo
                 polyline = polyline,
                 colorArgb = polylineColor,
                 widthPx = with(density) { POLYLINE_WIDTH.toPx() },
+            )
+            fitCameraToPolyline(
+                polyline = polyline,
                 cameraPaddingPx = with(density) { CAMERA_PADDING.roundToPx() },
                 onReady = onReady,
             )

@@ -28,6 +28,7 @@ import androidx.wear.compose.ui.tooling.preview.WearPreviewFontScales
 import cz.ackee.strava.wearos.R
 import cz.ackee.strava.wearos.core.presentation.map.WearMap
 import cz.ackee.strava.wearos.core.presentation.map.drawPolyline
+import cz.ackee.strava.wearos.core.presentation.map.fitCameraToPolyline
 import cz.ackee.strava.wearos.core.presentation.map.rememberMapStyle
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
 import cz.ackee.strava.wearos.feature.routes.domain.model.Route
@@ -121,7 +122,10 @@ private fun SegmentMap(segment: Segment, onBack: () -> Unit, modifier: Modifier 
             drawPolyline(
                 polyline = segment.polyline,
                 colorArgb = polylineColor,
-                widthPx = with(density) { POLYLINE_WIDTH.toPx() },
+                widthPx = with(density) { POLYLINE_WIDTH.toPx() }
+            )
+            fitCameraToPolyline(
+                polyline = segment.polyline,
                 cameraPaddingPx = with(density) { CAMERA_PADDING.roundToPx() },
             )
         },
