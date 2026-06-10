@@ -5,9 +5,7 @@
 Native Wear OS showcase app built for the Strava RFP. The RFP covers activity
 metrics, segments, and maps & navigation; **this codebase implements the maps
 slice only** — a list of routes fetched from a mocked Strava API and tapping a
-route to render its polyline on Google Maps for Wear OS. Everything else in the
-RFP is out of scope for the showcase and is listed at the bottom of this README
-so it doesn't get mistaken for missed work.
+route to render its polyline on Google Maps for Wear OS.
 
 ### Maps API key
 
