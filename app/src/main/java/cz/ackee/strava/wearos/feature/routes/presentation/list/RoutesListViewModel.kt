@@ -2,8 +2,8 @@ package cz.ackee.strava.wearos.feature.routes.presentation.list
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import cz.ackee.strava.wearos.feature.routes.domain.Route
-import cz.ackee.strava.wearos.feature.routes.domain.RouteRepository
+import cz.ackee.strava.wearos.feature.routes.domain.model.Route
+import cz.ackee.strava.wearos.feature.routes.domain.repository.RouteRepository
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

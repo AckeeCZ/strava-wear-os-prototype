@@ -1,4 +1,4 @@
-package cz.ackee.strava.wearos.feature.routes.domain
+package cz.ackee.strava.wearos.feature.routes.domain.model
 
 import com.google.android.gms.maps.model.LatLng
 import kotlin.jvm.JvmInline
@@ -11,6 +11,7 @@ data class Route(
     val elevationGainMeters: Double,
     val estimatedMovingTime: Duration,
     val polyline: List<LatLng>,
+    val segments: List<Segment>,
 ) {
 
     @JvmInline

@@ -1,15 +1,20 @@
-package cz.ackee.strava.wearos.feature.routes.data
+package cz.ackee.strava.wearos.feature.routes.data.repository
 
 import android.content.Context
-import cz.ackee.strava.wearos.feature.routes.domain.Route
-import cz.ackee.strava.wearos.feature.routes.domain.RouteRepository
+import cz.ackee.strava.wearos.feature.routes.data.dto.RouteDto
+import cz.ackee.strava.wearos.feature.routes.data.mapper.RouteMapper
+import cz.ackee.strava.wearos.feature.routes.domain.model.Route
+import cz.ackee.strava.wearos.feature.routes.domain.repository.RouteRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import kotlin.time.Duration.Companion.milliseconds
 
-class MockRouteRepository(private val context: Context) : RouteRepository {
+class MockRouteRepository(
+    private val context: Context,
+    private val mapper: RouteMapper,
+) : RouteRepository {
 
     private val json = Json {
         ignoreUnknownKeys = true
@@ -37,7 +42,7 @@ class MockRouteRepository(private val context: Context) : RouteRepository {
             val dto = context.assets.open("routes/$routeId.json").use { stream ->
                 json.decodeFromString<RouteDto>(stream.bufferedReader().readText())
             }
-            val route = dto.toDomain()
+            val route = mapper.map(dto)
             route.id to route
         }
         cache = routes

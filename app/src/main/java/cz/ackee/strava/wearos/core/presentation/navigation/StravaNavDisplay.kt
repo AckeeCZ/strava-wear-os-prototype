@@ -8,11 +8,16 @@ import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
 import androidx.wear.compose.navigation3.rememberSwipeDismissableSceneStrategy
-import cz.ackee.strava.wearos.feature.routes.domain.Route
+import cz.ackee.strava.wearos.feature.routes.domain.model.Route
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailDestination
+import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailNavigation
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailScreen
 import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListDestination
 import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListScreen
+import cz.ackee.strava.wearos.feature.routes.presentation.map.RouteMapDestination
+import cz.ackee.strava.wearos.feature.routes.presentation.map.RouteMapScreen
+import cz.ackee.strava.wearos.feature.routes.presentation.segments.RouteSegmentsDestination
+import cz.ackee.strava.wearos.feature.routes.presentation.segments.RouteSegmentsScreen
 
 @Composable
 fun StravaNavDisplay() {
@@ -34,7 +39,21 @@ fun StravaNavDisplay() {
             entry<RouteDetailDestination> { key ->
                 RouteDetailScreen(
                     routeId = Route.Id(key.routeId),
+                    navigation = RouteDetailNavigation(
+                        onShowMap = { backStack.add(RouteMapDestination(key.routeId)) },
+                        onShowAllSegments = { backStack.add(RouteSegmentsDestination(key.routeId)) },
+                    ),
+                )
+            }
+            entry<RouteMapDestination> { key ->
+                RouteMapScreen(
+                    routeId = Route.Id(key.routeId),
                     onBack = { backStack.removeLastOrNull() },
+                )
+            }
+            entry<RouteSegmentsDestination> { key ->
+                RouteSegmentsScreen(
+                    routeId = Route.Id(key.routeId),
                 )
             }
         },
