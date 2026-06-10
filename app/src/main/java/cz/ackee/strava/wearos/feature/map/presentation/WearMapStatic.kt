@@ -1,4 +1,4 @@
-package cz.ackee.strava.wearos.core.presentation.map
+package cz.ackee.strava.wearos.feature.map.presentation
 
 import android.os.Bundle
 import androidx.compose.animation.core.animateFloatAsState

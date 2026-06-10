@@ -1,4 +1,4 @@
-package cz.ackee.strava.wearos.core.presentation.map
+package cz.ackee.strava.wearos.feature.map.presentation
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap

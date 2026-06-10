@@ -1,4 +1,4 @@
-package cz.ackee.strava.wearos.core.presentation.map
+package cz.ackee.strava.wearos.feature.map.presentation
 
 import android.annotation.SuppressLint
 import android.app.Activity
