@@ -45,6 +45,7 @@ class RoutesListViewModel(private val repository: RouteRepository) : ViewModel()
         name = name,
         distanceKm = distanceMeters / METERS_PER_KILOMETER,
         elevationGainM = elevationGainMeters.roundToInt(),
+        starred = starred,
     )
 
     private companion object {

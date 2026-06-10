@@ -350,6 +350,7 @@ private class RouteDetailStateProvider : PreviewParameterProvider<RouteDetailSta
                 elevationGainMeters = 182.0,
                 estimatedMovingTime = 1.hours + 5.minutes,
                 polyline = emptyList(),
+                starred = true,
                 segments = emptyList(),
             ),
             starredSegments = listOf(
