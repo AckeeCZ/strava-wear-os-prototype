@@ -6,17 +6,6 @@ plugins {
     alias(libs.plugins.secrets)
 }
 
-detekt {
-    buildUponDefaultConfig = true
-    config.setFrom("$rootDir/detekt-config.yml")
-    ignoreFailures = false
-}
-
-dependencies {
-    detektPlugins(libs.detekt.formatting)
-    detektPlugins(libs.detekt.compose)
-}
-
 android {
     namespace = "cz.ackee.strava.wearos"
     compileSdk = 37
@@ -78,4 +67,13 @@ dependencies {
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
     testImplementation(libs.junit)
+
+    detektPlugins(libs.detekt.formatting)
+    detektPlugins(libs.detekt.compose)
+}
+
+detekt {
+    buildUponDefaultConfig = true
+    config.setFrom("$rootDir/detekt-config.yml")
+    ignoreFailures = false
 }
