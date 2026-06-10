@@ -17,7 +17,7 @@ local setup.
 
 ### Emulator / device
 
-Run target is a Wear OS 4+ image (API 30+). Google Maps requires a Wear OS
+Run target is a Wear OS 3+ image (API 30+). Google Maps requires a Wear OS
 image **with Google Play Services**.
 
 ## Tech stack
