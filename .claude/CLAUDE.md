@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Native Wear OS showcase app for the Strava RFP. **Only the "maps" slice of the RFP is implemented**: list mocked routes → tap one → render its polyline on Google Maps for Wear OS, with starred-segment highlights and a per-segment map. Single Gradle module (`:app`) targeting Wear OS 4+ (minSdk 30).
+Native Wear OS showcase app for the Strava RFP. **Only the "maps" slice of the RFP is implemented**: list mocked routes → tap one → render its polyline on Google Maps for Wear OS, with starred-segment highlights and a per-segment map. Single Gradle module (`:app`) targeting Wear OS 3+ (minSdk 30).
 
 The Google Maps API key is intentionally committed in `app/src/main/AndroidManifest.xml` so the project builds without local setup.
 
