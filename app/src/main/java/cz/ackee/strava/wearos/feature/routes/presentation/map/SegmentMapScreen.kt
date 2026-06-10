@@ -10,6 +10,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.PreviewParameter
@@ -110,13 +111,19 @@ private fun ErrorState(onRetry: () -> Unit) {
 private fun SegmentMap(segment: Segment, onBack: () -> Unit, modifier: Modifier = Modifier) {
     val polylineColor = StravaTheme.colors.map.polyline.toArgb()
     val mapStyle = rememberMapStyle(R.raw.map_style_dark)
+    val density = LocalDensity.current
     WearMap(
         onBack = onBack,
         mapStyle = mapStyle,
         modifier = modifier,
         configureMap = {
             clear()
-            drawPolyline(segment.polyline, polylineColor)
+            drawPolyline(
+                polyline = segment.polyline,
+                colorArgb = polylineColor,
+                widthPx = with(density) { POLYLINE_WIDTH.toPx() },
+                cameraPaddingPx = with(density) { CAMERA_PADDING.roundToPx() },
+            )
         },
     )
 }
@@ -138,3 +145,6 @@ private fun SegmentMapScreenPreview(
         SegmentMapScreen(state = state, onBack = {}, onIntent = {})
     }
 }
+
+private val POLYLINE_WIDTH = 2.dp
+private val CAMERA_PADDING = 12.dp

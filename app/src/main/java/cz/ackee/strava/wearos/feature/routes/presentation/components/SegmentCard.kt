@@ -15,6 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -84,6 +85,7 @@ fun SegmentCard(
 private fun SegmentMiniMap(polyline: List<LatLng>, mapStyle: MapStyleOptions, modifier: Modifier = Modifier) {
     val polylineColor = StravaTheme.colors.map.polyline.toArgb()
     val placeholderColor = StravaTheme.colors.backgrounds.surface
+    val density = LocalDensity.current
     WearMapStatic(
         mapStyle = mapStyle,
         placeholderColor = placeholderColor,
@@ -94,8 +96,8 @@ private fun SegmentMiniMap(polyline: List<LatLng>, mapStyle: MapStyleOptions, mo
             drawPolyline(
                 polyline = polyline,
                 colorArgb = polylineColor,
-                widthPx = POLYLINE_WIDTH_PX,
-                cameraPaddingPx = CAMERA_PADDING_PX,
+                widthPx = with(density) { POLYLINE_WIDTH.toPx() },
+                cameraPaddingPx = with(density) { CAMERA_PADDING.roundToPx() },
                 onReady = onReady,
             )
         },
@@ -148,5 +150,5 @@ private val MINIMAP_CORNER_RADIUS = 6.dp
 private const val METERS_PER_KILOMETER = 1000.0
 private const val SECONDS_PER_MINUTE = 60L
 private const val MIN_POLYLINE_POINTS = 2
-private const val POLYLINE_WIDTH_PX = 4f
-private const val CAMERA_PADDING_PX = 8
+private val POLYLINE_WIDTH = 2.dp
+private val CAMERA_PADDING = 4.dp

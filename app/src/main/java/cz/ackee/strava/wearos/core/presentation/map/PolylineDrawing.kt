@@ -9,8 +9,8 @@ import com.google.android.gms.maps.model.PolylineOptions
 fun GoogleMap.drawPolyline(
     polyline: List<LatLng>,
     colorArgb: Int,
-    widthPx: Float = DEFAULT_POLYLINE_WIDTH_PX,
-    cameraPaddingPx: Int = DEFAULT_CAMERA_PADDING_PX,
+    widthPx: Float,
+    cameraPaddingPx: Int,
     onReady: (() -> Unit)? = null,
 ) {
     if (polyline.isEmpty()) {
@@ -36,6 +36,3 @@ fun GoogleMap.drawPolyline(
         }
     }
 }
-
-private const val DEFAULT_POLYLINE_WIDTH_PX = 8f
-private const val DEFAULT_CAMERA_PADDING_PX = 24
