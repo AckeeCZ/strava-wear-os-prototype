@@ -73,6 +73,7 @@ fun RouteDetailScreen(
         state = state,
         onShowMap = navigation.onShowMap,
         onShowAllSegments = navigation.onShowAllSegments,
+        onShowSegmentMap = navigation.onShowSegmentMap,
         onIntent = viewModel::onIntent,
     )
 }
@@ -82,6 +83,7 @@ private fun RouteDetailScreen(
     state: RouteDetailState,
     onShowMap: () -> Unit,
     onShowAllSegments: () -> Unit,
+    onShowSegmentMap: (Segment.Id) -> Unit,
     onIntent: (RouteDetailIntent) -> Unit,
 ) {
     when (state) {
@@ -91,6 +93,7 @@ private fun RouteDetailScreen(
             state = state,
             onShowMap = onShowMap,
             onShowAllSegments = onShowAllSegments,
+            onShowSegmentMap = onShowSegmentMap,
         )
     }
 }
@@ -148,6 +151,7 @@ private fun ContentState(
     state: RouteDetailState.Content,
     onShowMap: () -> Unit,
     onShowAllSegments: () -> Unit,
+    onShowSegmentMap: (Segment.Id) -> Unit,
 ) {
     val listState = rememberTransformingLazyColumnState()
     ScreenScaffold(
@@ -175,6 +179,7 @@ private fun ContentState(
         DetailContent(
             state = state,
             onShowMap = onShowMap,
+            onShowSegmentMap = onShowSegmentMap,
             listState = listState,
             contentPadding = contentPadding,
         )
@@ -185,6 +190,7 @@ private fun ContentState(
 private fun DetailContent(
     state: RouteDetailState.Content,
     onShowMap: () -> Unit,
+    onShowSegmentMap: (Segment.Id) -> Unit,
     listState: TransformingLazyColumnState,
     contentPadding: PaddingValues,
 ) {
@@ -225,6 +231,7 @@ private fun DetailContent(
                 SegmentCard(
                     highlighted = highlighted,
                     mapStyle = segmentMapStyle,
+                    onClick = { onShowSegmentMap(highlighted.segment.id) },
                     modifier = Modifier.fillMaxWidth().transformedHeight(this@items, spec),
                     transformation = SurfaceTransformation(spec),
                 )
@@ -381,6 +388,7 @@ private fun RouteDetailScreenPreview(
             state = state,
             onShowMap = {},
             onShowAllSegments = {},
+            onShowSegmentMap = {},
             onIntent = {},
         )
     }

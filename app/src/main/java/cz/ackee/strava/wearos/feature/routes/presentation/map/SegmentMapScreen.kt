@@ -31,29 +31,31 @@ import cz.ackee.strava.wearos.core.presentation.map.drawPolyline
 import cz.ackee.strava.wearos.core.presentation.map.rememberMapStyle
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
 import cz.ackee.strava.wearos.feature.routes.domain.model.Route
+import cz.ackee.strava.wearos.feature.routes.domain.model.Segment
 import org.koin.androidx.compose.koinViewModel
 import org.koin.core.parameter.parametersOf
 
 @Composable
-fun RouteMapScreen(
+fun SegmentMapScreen(
     routeId: Route.Id,
+    segmentId: Segment.Id,
     onBack: () -> Unit,
-    viewModel: RouteMapViewModel = koinViewModel { parametersOf(routeId) },
+    viewModel: SegmentMapViewModel = koinViewModel { parametersOf(routeId, segmentId) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    RouteMapScreen(state = state, onBack = onBack, onIntent = viewModel::onIntent)
+    SegmentMapScreen(state = state, onBack = onBack, onIntent = viewModel::onIntent)
 }
 
 @Composable
-private fun RouteMapScreen(
-    state: RouteMapState,
+private fun SegmentMapScreen(
+    state: SegmentMapState,
     onBack: () -> Unit,
-    onIntent: (RouteMapIntent) -> Unit,
+    onIntent: (SegmentMapIntent) -> Unit,
 ) {
     when (state) {
-        RouteMapState.Loading -> LoadingState()
-        RouteMapState.Error -> ErrorState(onRetry = { onIntent(RouteMapIntent.Retry) })
-        is RouteMapState.Content -> RouteMap(route = state.route, onBack = onBack)
+        SegmentMapState.Loading -> LoadingState()
+        SegmentMapState.Error -> ErrorState(onRetry = { onIntent(SegmentMapIntent.Retry) })
+        is SegmentMapState.Content -> SegmentMap(segment = state.segment, onBack = onBack)
     }
 }
 
@@ -82,7 +84,7 @@ private fun ErrorState(onRetry: () -> Unit) {
                 contentAlignment = Alignment.Center,
             ) {
                 Text(
-                    text = stringResource(R.string.route_map_error),
+                    text = stringResource(R.string.segment_map_error),
                     style = StravaTheme.typography.paragraphs.body,
                     color = StravaTheme.colors.foregrounds.primary,
                     textAlign = TextAlign.Center,
@@ -97,7 +99,7 @@ private fun ErrorState(onRetry: () -> Unit) {
                 ),
             ) {
                 Text(
-                    text = stringResource(R.string.route_map_retry),
+                    text = stringResource(R.string.segment_map_retry),
                     style = StravaTheme.typography.labels.large,
                 )
             }
@@ -106,7 +108,7 @@ private fun ErrorState(onRetry: () -> Unit) {
 }
 
 @Composable
-private fun RouteMap(route: Route, onBack: () -> Unit, modifier: Modifier = Modifier) {
+private fun SegmentMap(segment: Segment, onBack: () -> Unit, modifier: Modifier = Modifier) {
     val polylineColor = StravaTheme.colors.map.polyline.toArgb()
     val mapStyle = rememberMapStyle(R.raw.map_style_dark)
     val density = LocalDensity.current
@@ -117,7 +119,7 @@ private fun RouteMap(route: Route, onBack: () -> Unit, modifier: Modifier = Modi
         configureMap = {
             clear()
             drawPolyline(
-                polyline = route.polyline,
+                polyline = segment.polyline,
                 colorArgb = polylineColor,
                 widthPx = with(density) { POLYLINE_WIDTH.toPx() },
                 cameraPaddingPx = with(density) { CAMERA_PADDING.roundToPx() },
@@ -126,21 +128,21 @@ private fun RouteMap(route: Route, onBack: () -> Unit, modifier: Modifier = Modi
     )
 }
 
-private class RouteMapStateProvider : PreviewParameterProvider<RouteMapState> {
+private class SegmentMapStateProvider : PreviewParameterProvider<SegmentMapState> {
     override val values = sequenceOf(
-        RouteMapState.Loading,
-        RouteMapState.Error,
+        SegmentMapState.Loading,
+        SegmentMapState.Error,
     )
 }
 
 @WearPreviewDevices
 @WearPreviewFontScales
 @Composable
-private fun RouteMapScreenPreview(
-    @PreviewParameter(RouteMapStateProvider::class) state: RouteMapState,
+private fun SegmentMapScreenPreview(
+    @PreviewParameter(SegmentMapStateProvider::class) state: SegmentMapState,
 ) {
     StravaTheme {
-        RouteMapScreen(state = state, onBack = {}, onIntent = {})
+        SegmentMapScreen(state = state, onBack = {}, onIntent = {})
     }
 }
 

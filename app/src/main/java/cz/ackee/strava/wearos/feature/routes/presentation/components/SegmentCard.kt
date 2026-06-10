@@ -15,6 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -22,14 +23,11 @@ import androidx.wear.compose.material3.Card
 import androidx.wear.compose.material3.CardDefaults
 import androidx.wear.compose.material3.SurfaceTransformation
 import androidx.wear.compose.material3.Text
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MapStyleOptions
-import com.google.android.gms.maps.model.PolylineOptions
 import cz.ackee.strava.wearos.R
 import cz.ackee.strava.wearos.core.presentation.map.WearMapStatic
+import cz.ackee.strava.wearos.core.presentation.map.drawPolyline
 import cz.ackee.strava.wearos.core.presentation.theme.StravaTheme
 import cz.ackee.strava.wearos.feature.routes.domain.model.HighlightedSegment
 import kotlin.time.Duration
@@ -38,12 +36,13 @@ import kotlin.time.Duration
 fun SegmentCard(
     highlighted: HighlightedSegment,
     mapStyle: MapStyleOptions,
+    onClick: () -> Unit,
     modifier: Modifier = Modifier,
     transformation: SurfaceTransformation? = null,
 ) {
     val segment = highlighted.segment
     Card(
-        onClick = {},
+        onClick = onClick,
         modifier = modifier,
         transformation = transformation,
         colors = CardDefaults.cardColors(
@@ -86,28 +85,23 @@ fun SegmentCard(
 private fun SegmentMiniMap(polyline: List<LatLng>, mapStyle: MapStyleOptions, modifier: Modifier = Modifier) {
     val polylineColor = StravaTheme.colors.map.polyline.toArgb()
     val placeholderColor = StravaTheme.colors.backgrounds.surface
+    val density = LocalDensity.current
     WearMapStatic(
         mapStyle = mapStyle,
         placeholderColor = placeholderColor,
         cornerRadius = MINIMAP_CORNER_RADIUS,
         modifier = modifier,
-        configureMap = { onReady -> drawSegmentPreview(polyline, polylineColor, onReady) },
+        configureMap = { onReady ->
+            clear()
+            drawPolyline(
+                polyline = polyline,
+                colorArgb = polylineColor,
+                widthPx = with(density) { POLYLINE_WIDTH.toPx() },
+                cameraPaddingPx = with(density) { CAMERA_PADDING.roundToPx() },
+                onReady = onReady,
+            )
+        },
     )
-}
-
-private fun GoogleMap.drawSegmentPreview(polyline: List<LatLng>, colorArgb: Int, onReady: () -> Unit) {
-    clear()
-    addPolyline(
-        PolylineOptions()
-            .addAll(polyline)
-            .color(colorArgb)
-            .width(POLYLINE_WIDTH_PX),
-    )
-    val bounds = LatLngBounds.builder().apply { polyline.forEach { include(it) } }.build()
-    setOnMapLoadedCallback {
-        moveCamera(CameraUpdateFactory.newLatLngBounds(bounds, CAMERA_PADDING_PX))
-        onReady()
-    }
 }
 
 @Composable
@@ -156,5 +150,5 @@ private val MINIMAP_CORNER_RADIUS = 6.dp
 private const val METERS_PER_KILOMETER = 1000.0
 private const val SECONDS_PER_MINUTE = 60L
 private const val MIN_POLYLINE_POINTS = 2
-private const val POLYLINE_WIDTH_PX = 4f
-private const val CAMERA_PADDING_PX = 8
+private val POLYLINE_WIDTH = 2.dp
+private val CAMERA_PADDING = 4.dp

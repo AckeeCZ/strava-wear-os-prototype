@@ -9,6 +9,7 @@ import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
 import androidx.wear.compose.navigation3.rememberSwipeDismissableSceneStrategy
 import cz.ackee.strava.wearos.feature.routes.domain.model.Route
+import cz.ackee.strava.wearos.feature.routes.domain.model.Segment
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailDestination
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailNavigation
 import cz.ackee.strava.wearos.feature.routes.presentation.detail.RouteDetailScreen
@@ -16,6 +17,8 @@ import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListDestina
 import cz.ackee.strava.wearos.feature.routes.presentation.list.RoutesListScreen
 import cz.ackee.strava.wearos.feature.routes.presentation.map.RouteMapDestination
 import cz.ackee.strava.wearos.feature.routes.presentation.map.RouteMapScreen
+import cz.ackee.strava.wearos.feature.routes.presentation.map.SegmentMapDestination
+import cz.ackee.strava.wearos.feature.routes.presentation.map.SegmentMapScreen
 import cz.ackee.strava.wearos.feature.routes.presentation.segments.RouteSegmentsDestination
 import cz.ackee.strava.wearos.feature.routes.presentation.segments.RouteSegmentsScreen
 
@@ -42,6 +45,9 @@ fun StravaNavDisplay() {
                     navigation = RouteDetailNavigation(
                         onShowMap = { backStack.add(RouteMapDestination(key.routeId)) },
                         onShowAllSegments = { backStack.add(RouteSegmentsDestination(key.routeId)) },
+                        onShowSegmentMap = { segmentId ->
+                            backStack.add(SegmentMapDestination(key.routeId, segmentId.value))
+                        },
                     ),
                 )
             }
@@ -54,6 +60,16 @@ fun StravaNavDisplay() {
             entry<RouteSegmentsDestination> { key ->
                 RouteSegmentsScreen(
                     routeId = Route.Id(key.routeId),
+                    onSegmentClick = { segmentId ->
+                        backStack.add(SegmentMapDestination(key.routeId, segmentId.value))
+                    },
+                )
+            }
+            entry<SegmentMapDestination> { key ->
+                SegmentMapScreen(
+                    routeId = Route.Id(key.routeId),
+                    segmentId = Segment.Id(key.segmentId),
+                    onBack = { backStack.removeLastOrNull() },
                 )
             }
         },
